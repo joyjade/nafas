@@ -49,3 +49,9 @@ Icon
 
 /site/config/.license
 /site/config/config.php
+
+
+# Composer files
+# ---------------
+/kirby
+/vendor
