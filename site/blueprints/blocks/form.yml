@@ -1,0 +1,11 @@
+# site/blueprints/blocks/form.yml
+
+title: Form Block
+icon: survey
+preview: fields
+wysiwyg: true
+
+fields:
+  form:
+    label: Select your form
+    extends: dreamform/fields/form

@@ -1,0 +1,4 @@
+label: dreamform.common.errorMessage.label
+type: text
+help: dreamform.common.errorMessage.help
+placeholder: dreamform.fields.error.required
