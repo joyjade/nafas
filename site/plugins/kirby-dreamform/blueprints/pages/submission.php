@@ -51,13 +51,10 @@ return function () {
 			'sidebar' => [
 				'width' => '1/3',
 				'sections' => [
-					'submission' => [
-						'type' => 'dreamform-submission'
-          ],
-          'status' => [
+          'tracking' => [
             'type' => 'fields',
             'fields' => [
-              'status' => [
+              'approval' => [
                 'label' => 'Status',
                 'type' => 'select',
                 'options' => [
@@ -68,6 +65,9 @@ return function () {
                 'default' => 'pending',
               ]
             ]
+          ],
+          'submission' => [
+						'type' => 'dreamform-submission'
           ]
 				]
 			],

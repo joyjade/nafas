@@ -42,6 +42,12 @@ return function () {
 					'value' => '<a href="{{ page.panel.url }}">{{ page.title }}</a>',
 					'mobile' => true
 				],
+        'status' => [
+					'label' => t('dreamform.submission.status'),
+					'type' => 'html',
+					'value' => "{{ page.approval }}",
+					'mobile' => true
+				],
 			], $columns)
 		]]
 	];

@@ -62,7 +62,7 @@ return function () {
 						'query' => "page.index.filterBy('intendedTemplate', 'submission').sortBy('sortDate', 'desc').limit(20)",
 						'columns' => [
 							'date' => [
-								'label' => 'dreamform.submission.submittedAt',
+								'label' => "dreamform.submission.submittedAt",
 								'type' => 'html',
 								'value' => '<a href="{{ page.panel.url }}">{{ page.title }}</a>',
 								'mobile' => true
@@ -71,7 +71,7 @@ return function () {
 								'label' => 'dreamform.form',
 								'type' => 'html',
 								'value' => '<a href="{{ page.parent.panel.url }}?tab=submissions">{{ page.parent.title }}</a>'
-							]
+              ]
 						]
 					]
 				]
