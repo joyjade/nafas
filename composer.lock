@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "add999b11679efdcb93aa59c5b9c6ee2",
+    "content-hash": "70316735f9a4adb73eda5f870b099369",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -596,6 +596,49 @@
                 "source": "https://github.com/michelf/php-smartypants/tree/1.8.1"
             },
             "time": "2016-12-13T01:01:17+00:00"
+        },
+        {
+            "name": "moinframe/kirby-dreamform-info-field",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moinframe/kirby-dreamform-info-field.git",
+                "reference": "3cb5f23264ef99ed3e2d8a24b07220eac7f31f0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moinframe/kirby-dreamform-info-field/zipball/3cb5f23264ef99ed3e2d8a24b07220eac7f31f0f",
+                "reference": "3cb5f23264ef99ed3e2d8a24b07220eac7f31f0f",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/cms": "^4.0 || ^5.0",
+                "getkirby/composer-installer": "^1.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.75"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justus Kraft",
+                    "email": "hallo@justuskraft.de"
+                }
+            ],
+            "description": "Simple Info field for Kirby Dreamform",
+            "keywords": [
+                "dreamform",
+                "kirby-plugin"
+            ],
+            "support": {
+                "issues": "https://github.com/moinframe/kirby-dreamform-info-field/issues",
+                "source": "https://github.com/moinframe/kirby-dreamform-info-field/tree/v0.1.0"
+            },
+            "time": "2025-05-26T11:06:52+00:00"
         },
         {
             "name": "phpmailer/phpmailer",

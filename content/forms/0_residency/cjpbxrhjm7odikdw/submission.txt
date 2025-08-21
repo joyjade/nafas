@@ -1,8 +1,4 @@
-First-name: jelly
-
-----
-
-Last-name: bean
+Name: 
 
 ----
 
@@ -14,6 +10,30 @@ Type-of-residency: writing
 
 ----
 
+Describe-your-project-200: 
+
+----
+
+Residency: 
+
+----
+
+Bi: 
+
+----
+
+Approval: approved
+
+----
+
+First-name: jelly
+
+----
+
+Last-name: bean
+
+----
+
 Describe-your-project-200-words:
 
 India’s central government views the state of Kerala with suspicion and disdain. Politicians from Prime Minister Narendra Modi’s ruling Bharatiya Janata Party (BJP) often present it as an internal, fifth-columnist enemy.
@@ -21,10 +41,6 @@ India’s central government views the state of Kerala with suspicion and disdai
 Kerala has for decades been a vital heartland of the country’s communist movement. Despite its increasingly isolated status, the state continues to regularly vote for the communist-led Left Democratic Front (LDF), most recently in 2021. The year 2021 was the LDF’s sixth election victory since 1980, and the first time it won two consecutive terms.
 
 What is it that has made the movement so enduringly successful at a time when Indian politics has veered sharply to the right at a national level? And are there lessons for the international left to learn?
-
-----
-
-Approval: approved
 
 ----
 

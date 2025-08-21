@@ -3,8 +3,10 @@
   --main-font: 'Asul', Times, serif;
   --sub-font: 'C059', Times, serif;
   --body-font: 'Asul', Times, serif;
-  --primary-color: #FFF8F3;
-  --secondary-color: #FF0000;
+  --bg-color: #F2EADD;
+  --primary-color: #4F4E3C;
+  --secondary-color: #B1B199;
+  --tertiary-color: #283337;
   --thin-border: 1.5px solid var(--secondary-color);
 
   --spacing: 0.5rem 0.75rem;
@@ -24,7 +26,7 @@
 }
 
 ::selection {
-	background-color: var(--secondary-color);
+	background-color: var(--tertiary-color);
 	color: white;
 }
 
@@ -38,7 +40,7 @@ a {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 
@@ -49,8 +51,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--main-font);
 }
 
+h3 {
+  font-size: 1.8rem;
+}
+
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* LAYOUT */
@@ -60,6 +66,7 @@ body {
 
   padding: var(--spacing);
   font-size: 1.3rem;
+  background-color: var(--bg-color);
 }
 
 
@@ -81,11 +88,18 @@ nav ul {
   display: flex;
   flex-flow: column;
   align-items: flex-end;
+
 }
+
 nav ul li {
   padding-left: 0.75rem;
   padding-bottom: 0.5rem;
   text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+nav ul li .active, nav a:hover {
+  color: var(--tertiary-color);
 }
 
 /* desktop */
@@ -168,4 +182,40 @@ nav ul li {
 
 .hamb.show .hamb-line:after {
   transform: translate3d(0, -16px, 0) rotate(-90deg);
+}
+
+
+/* FORMS */
+
+form {
+  font-family: var(--sub-font);
+  font-size: 1.1rem;
+  padding-top: 5rem;
+  max-width: 1000px;
+}
+
+.field {
+  padding-right: 0.5rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+form .text {
+  margin: 1rem 0;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form input {
+  height: 25px;
+}
+
+form textarea {
+  height: 200px
 }
