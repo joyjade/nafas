@@ -1,8 +1,8 @@
 /* GLOBAL */
 :root {
-  --main-font: 'Standard Book', Times, serif;
-  --display-font: 'Arial';
-  --body-font: 'Times New Roman', Times, serif;
+  --main-font: 'Asul', Times, serif;
+  --sub-font: 'C059', Times, serif;
+  --body-font: 'Asul', Times, serif;
   --primary-color: #FFF8F3;
   --secondary-color: #FF0000;
   --thin-border: 1.5px solid var(--secondary-color);
@@ -56,6 +56,8 @@ a:hover {
 /* LAYOUT */
 
 body {
+  font-family: var(--main-font);
+
   padding: var(--spacing);
   font-size: 1.3rem;
 }
@@ -63,16 +65,27 @@ body {
 
 /* MENU */
 
-
-nav {
+.title, nav {
   position: fixed;
   right: 0;
   top: 0;
   padding: var(--spacing);
 }
 
+nav {
+  top: 50%;
+  transform: translateY(-70%);
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
 nav ul li {
   padding-left: 0.75rem;
+  padding-bottom: 0.5rem;
+  text-transform: capitalize;
 }
 
 /* desktop */

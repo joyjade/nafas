@@ -1,6 +1,38 @@
 @font-face {
-  font-family: "Standard Book";
-  src:
-    local("Standard Book"),
-    url("standard-book.eot") format("eot"),
+  font-family: "Asul";
+  font-style: normal;
+  src: url("Asul-Regular.ttf") format("truetype"),
 }
+
+@font-face {
+  font-family: "Asul";
+  font-weight: 600;
+  src: url("Asul-Bold.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "C059";
+  font-style: normal;
+  src: url("C059-Roman.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "C059";
+  font-weight: 400;
+  font-style: italic;
+  src: url("C059-Italic.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "C059";
+  font-weight: 600;
+  src: url("C059-Bold.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "C059";
+  font-weight: 600;
+  font-style: italic;
+  src: url("C059-BdIta.ttf") format("truetype"),
+}
+
