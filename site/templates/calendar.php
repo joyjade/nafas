@@ -21,13 +21,15 @@
 
   <script>
   document.addEventListener('DOMContentLoaded', function () {
+    const apikey = <?= json_encode(env('GOOGLE_API_KEY')) ?>;
+
     const calendarEl = document.getElementById('calendar');
 
     const calendar = new FullCalendar.Calendar(calendarEl, {
       // height: '100%',
       initialView: 'multiMonthYear',
       multiMonthMaxColumns: 1,
-      googleCalendarApiKey: 'AIzaSyBqWKPH9ql7a0cZezwPT3sk5J-HBcaUdnk',
+      googleCalendarApiKey: apikey,
       events: {
         googleCalendarId: '77tv948plsl94dj18n90pub6as@group.calendar.google.com'
       }
