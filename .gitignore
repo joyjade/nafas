@@ -21,6 +21,7 @@ Icon
 *.sublime-workspace
 /.vscode
 /.idea
+/.editorconfig
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
@@ -37,6 +38,10 @@ Icon
 
 /site/accounts/*
 !/site/accounts/index.html
+
+# Secrets
+# ---------------
+/.env
 
 # Sessions
 # ---------------
