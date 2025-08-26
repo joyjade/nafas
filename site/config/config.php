@@ -12,4 +12,15 @@ return [
     'system',
     // [...]
     ],
+  'routes' => [
+    [
+      'pattern' => '/api/test',
+      'method' => 'GET',
+      'action'  => function () {
+        return response()->json([
+          'hello' => 'world'
+        ]);
+      }
+    ]
+  ]
 ];

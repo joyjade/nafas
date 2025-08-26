@@ -8,6 +8,14 @@ columns:
     text:
       label: Post
       type: textarea
+    start:
+      width: 1/2
+      type: date
+      time: true
+    end:
+      time: true
+      type: date
+      width: 1/2
       
   sidebar:
     width: 1/3
