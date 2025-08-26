@@ -1,25 +1,18 @@
-// var calendar = new FullCalendar.Calendar(calendarEl, {
-//   plugins: [ 'dayGrid', 'googleCalendar' ],
-//   initialView: 'dayGridMonth',
-//   googleCalendarApiKey: 'YOUR_API_KEY_HERE',
-//   events: {
-//     googleCalendarId: 'your_calendar_id@group.calendar.google.com'
-//   }
-// });
-
 document.addEventListener('DOMContentLoaded', function () {
-    // helloWorld();
-
+  // helloWorld();
+  
+  // const apikey = <?= json_encode(env('GOOGLE_API_KEY')) ?>;
+  // const calid = <?= json_encode(env('GOOGLE_CAL_ID')) ?>;
   // var calendarEl = document.getElementById('calendar');
 
   // var calendar = new FullCalendar.Calendar(calendarEl, {
   //   plugins: [ FullCalendarDayGrid, FullCalendarGoogleCalendar ],
   //   initialView: 'dayGridMonth',
 
-  //   googleCalendarApiKey: 'AIzaSyBqWKPH9ql7a0cZezwPT3sk5J-HBcaUdnk',  // Replace this
+  //   googleCalendarApiKey: apikey,  // Replace this
 
   //   events: {
-  //     googleCalendarId: '77tv948plsl94dj18n90pub6as@group.calendar.google.com'         // Replace this
+  //     googleCalendarId: calid
   //   }
   // });
 
