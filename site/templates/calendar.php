@@ -63,7 +63,19 @@
 </nav>
 
 <div class="">
-  <h1><?= $page->text() ?></h1>
+  <h3><?= $page->description() ?></h3>
+  <div class="legend">
+    <ul>
+      <li>
+        <span class="dot" style="background-color:<?= $page->color() ?>"></span>
+        Residency in Progress
+      </li>
+      <li>
+        <span class="dot"></span>
+        Event
+      </li>
+    </ul>
+  </div>
   <div id="calendar"></div>
 
 </div>

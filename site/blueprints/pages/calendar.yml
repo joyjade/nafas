@@ -1,0 +1,12 @@
+title: Calendar
+icon: 📅
+
+
+sections:
+  calendar:
+    type: fields
+    fields:
+      description: 
+        type: textarea
+      color: 
+        type: text

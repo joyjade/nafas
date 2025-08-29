@@ -1,4 +1,12 @@
-Title: calendar
+Title: Calendar
+
+----
+
+Description: View the Calendar for upcoming events and when the space is available.
+
+----
+
+Color: #093934
 
 ----
 
