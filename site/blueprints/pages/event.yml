@@ -5,8 +5,8 @@ columns:
   main:
    width: 2/3
    fields: 
-    text:
-      label: Post
+    description:
+      label: Event
       type: textarea
     start:
       width: 1/2
@@ -20,10 +20,10 @@ columns:
   sidebar:
     width: 1/3
     fields: 
-      reading:
-        label: Reading
-        type: pages
-        query: site.find('readings').children.listed.flip()
+      photo:
+        label: Image
+        type: files
+        multiple: false
         help: Please select which Reading this Annotation covers
       byline: 
         type: structure

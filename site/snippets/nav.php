@@ -12,7 +12,7 @@
   <?= css(['assets/css/global.css', 'assets/type/fonts.css', 'assets/css/mobile.css', '@auto',]) ?>
 </head>
 
-<body class="">
+<body class="<?= $page->template() ?>">
   <div class="header">
     <div class="title">
       <a href="<?= $site->url() ?>"><?= $site->title() ?></a>

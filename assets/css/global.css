@@ -40,7 +40,7 @@ a {
 }
 
 img {
-  /* width: 100%; */
+  width: auto;
 }
 
 
@@ -221,6 +221,7 @@ form textarea {
 }
 
 
+
 /* CALENDAR TIES */
 
 #calendar {
@@ -323,3 +324,23 @@ form textarea {
   --fc-today-bg-color: rgba(255, 220, 40, 0.15);
   --fc-now-indicator-color: red;
 }
+
+
+/* EVENTS */
+
+.events .event {
+  min-height: 40vh;
+}
+
+.events figure img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+.event date {
+  display: block;
+  padding-bottom: 1rem;
+}
+

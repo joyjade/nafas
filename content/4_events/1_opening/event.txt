@@ -2,7 +2,7 @@ Title: Opening: Nafas
 
 ----
 
-Text: 
+Description: 
 
 ----
 
@@ -14,11 +14,15 @@ End: 2025-10-01 20:00:00
 
 ----
 
-Reading: 
+Photo: - file://hthadhm4pybxedf6
 
 ----
 
 Byline: 
+
+----
+
+Reading: 
 
 ----
 
