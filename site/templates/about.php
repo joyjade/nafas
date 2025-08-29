@@ -1,5 +1,5 @@
 <?php snippet('nav') ?>
-<div class="">
+<main class="">
   <?= $page->text()->kirbytext() ?>
-</div>
+</main>
 <?php snippet('footer') ?>

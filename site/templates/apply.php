@@ -1,5 +1,5 @@
 <?php snippet('nav') ?>
-<div class="">
+<main class="">
   <h3><?= $page->text()->kirbytext() ?></h3>
   
   <?php snippet('dreamform/form', [
@@ -10,7 +10,7 @@
       'row' => ['class' => 'row'],
     ]
     ]); ?>
-</div>
+</main>
 <?php snippet('footer') ?>
 
 

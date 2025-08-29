@@ -62,7 +62,7 @@
     </ul>
 </nav>
 
-<div class="">
+<main class="">
   <h3><?= $page->description() ?></h3>
   <div class="legend">
     <ul>
@@ -78,5 +78,5 @@
   </div>
   <div id="calendar"></div>
 
-</div>
+      </main>
 <?php snippet('footer') ?>

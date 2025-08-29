@@ -1,5 +1,5 @@
 <?php snippet('nav') ?>
-<div class="">
+<main class="">
   <h1><?= $page->title() ?></h1>
-</div>
+</main>
 <?php snippet('footer') ?>
