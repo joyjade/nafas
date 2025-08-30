@@ -109,6 +109,10 @@
       rgb(242, 234, 221, 0) 98%
     );
   }
+
+  #calendar {
+    height: calc( 100vh - 250px);
+  }
 }
 
 /* tablet to desktop and up */
