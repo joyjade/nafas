@@ -14,6 +14,8 @@ columns:
     time:
       width: 1/2
       type: time
+      display: HH:mm
+
 
       
   sidebar:

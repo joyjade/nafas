@@ -58,7 +58,7 @@
 }
 
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 1015px) {  
   .hamb {
     display: inline-block;
   }
@@ -130,7 +130,7 @@
 }
 
 /* tablet to desktop and up */
-@media screen and (min-width: 769px) {  
+@media screen and (min-width: 1015px) {  
   .hamb {
     display: none;
   }

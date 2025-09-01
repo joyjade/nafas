@@ -273,7 +273,18 @@ form button {
 /* EVENTS */
 
 .events .event {
-  min-height: 40vh;
+  height: 100px;
+  padding-left: 20px;
+  margin-bottom: 1rem;
+}
+.events .event:nth-of-type(3n) {
+  border-left: 8px solid var(--primary-color);
+}
+.events .event:nth-of-type(3n + 1) {
+  border-left: 8px solid var(--tertiary-color);
+}
+.events .event:nth-of-type(3n + 2) {
+  border-left: 8px solid var(--secondary-color);
 }
 
 .events figure img {

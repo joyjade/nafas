@@ -4,19 +4,23 @@ Title: About
 
 Text:
 
-nafas is a residency space in Denver, Colorado. 
+### nafas is a residency space in Denver, Colorado. 
+</br>
 
 ~a place to breath and dedicate time to a project
 ~a one bedroom apartment for one to three weeks
 
+</br>
 (image: file://osotlxev0aq0r1yv)
 
+</br>
 ### for whom
 
 ~for artists, scholars and writers
 ~specifically for those who experience barriers to other residency spaces
 ~BIPOC artists/researchers or someone working on topics 
 
+</br>
 ### funding
 
 ~pay what you can 

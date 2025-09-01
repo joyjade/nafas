@@ -3,10 +3,10 @@
   <?php foreach($page->children()->listed() as $event) : ?>
     <div class="event">
       <a href="<?= $event-> url() ?>">
-      <h1>
+      <h3>
         <?= $event->title() ?>
-      </h1>
-      <date><?= $event->start()->toDate('l, jS \of F, g:i') ?>-<?= $event->end()->toDate('g:i A') ?></date>
+      </h3>
+      <date><?= $event->date()->toDate('l, F jS') ?>, <?= $event->time()->toDate('g:i a')?></date>
       <p>
         <?= $event->description() ?>
       </p>
