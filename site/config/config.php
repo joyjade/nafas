@@ -14,13 +14,23 @@ return [
     ],
   'routes' => [
     [
-      'pattern' => '/api/test',
-      'method' => 'GET',
+      'pattern' => 'api',
+      'method'  => 'GET',
       'action'  => function () {
-        return response()->json([
-          'hello' => 'world'
-        ]);
+        $events = page('events')->children()->listed();
+        $data = [];
+       
+        foreach ($events as $event) {
+          $data[] = [
+              'title' => $event->title()->value(),
+              'start' => $event->start()->toDate('c'), // ISO 8601
+              'allDay' => true
+          ];
+        }
+        
+        return response::json($data);
       }
     ]
   ]
+      
 ];

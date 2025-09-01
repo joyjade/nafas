@@ -15,14 +15,26 @@
         const calendar = new FullCalendar.Calendar(calendarEl, {
           
           // height: isMobile ? '100%' : auto,
-          aspectRation: 3,
-          contentHeight: 900,
+          // aspectRatio: 3,
+          // contentHeight: 900,
           initialView: 'multiMonthYear',
           multiMonthMaxColumns: 1,
           googleCalendarApiKey: apikey,
-          events: {
-            googleCalendarId: '77tv948plsl94dj18n90pub6as@group.calendar.google.com'
-          }
+          eventSources: [
+            {
+              url: '/api', // Your Kirby events
+              method: 'GET',
+              failure: function () {
+                alert('There was an error while fetching Kirby events!');
+              },
+              color: '#283337',   // optional color for Kirby events
+            },
+            {
+              googleCalendarId: '77tv948plsl94dj18n90pub6as@group.calendar.google.com',
+              className: 'gcal-event',
+              color: '#4A4F3C' // optional
+            }
+          ]
         });
 
         calendar.render();
@@ -42,11 +54,11 @@
   <div class="legend">
     <ul>
       <li>
-        <span class="dot" style="background-color:<?= $page->color() ?>"></span>
+        <span class="dot" style="background-color: #4A4F3C"></span>
         Residency in Progress
       </li>
       <li>
-        <span class="dot"></span>
+        <span class="dot" style="background-color: #283337"></span>
         Event
       </li>
     </ul>
