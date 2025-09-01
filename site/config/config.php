@@ -23,7 +23,7 @@ return [
         foreach ($events as $event) {
           $data[] = [
               'title' => $event->title()->value(),
-              'start' => $event->start()->toDate('c'), // ISO 8601
+              'start' => $event->date()->toDate('Y-m-d'), 
               'allDay' => true
           ];
         }

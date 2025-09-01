@@ -2,15 +2,15 @@ Title: Opening: Nafas
 
 ----
 
-Description: 
+Description: One day
 
 ----
 
-Start: 2025-10-01 18:00:00
+Date: 2025-10-01
 
 ----
 
-End: 2025-10-01 20:00:00
+Time: 19:00:00
 
 ----
 
@@ -23,14 +23,6 @@ Byline:
 ----
 
 Reading: 
-
-----
-
-Date: 2025-10-01
-
-----
-
-Time: 19:00:00
 
 ----
 

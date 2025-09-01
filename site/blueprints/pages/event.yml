@@ -8,14 +8,13 @@ columns:
     description:
       label: Event
       type: textarea
-    start:
-      width: 1/2
-      type: date
-      time: true
-    end:
-      time: true
+    date:
       type: date
       width: 1/2
+    time:
+      width: 1/2
+      type: time
+
       
   sidebar:
     width: 1/3
