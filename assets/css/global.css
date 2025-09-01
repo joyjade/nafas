@@ -214,6 +214,11 @@ form button {
 .fc table {
   font-size: 0.85rem;
 }
+
+.fc .fc-multimonth-compact .fc-multimonth-daygrid-table, .fc .fc-multimonth-compact .fc-multimonth-header-table {
+  font-size: 0.75em;
+}
+
 .fc th {
   font-weight: 400;
 }

@@ -111,7 +111,17 @@
   }
 
   #calendar {
-    height: calc( 100vh - 250px);
+    height: calc( 100vh - 200px);
+  }
+
+    /* Increase height of each month cell */
+  .fc-multimonth-month {
+    height: 50vh !important; /* or auto */
+  }
+
+  /* Or increase day grid row height (affects each week row inside month) */
+  .fc-multimonth-daygrid-table {
+    min-height: 41vh; /* Adjust as needed */
   }
 }
 

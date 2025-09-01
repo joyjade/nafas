@@ -4,13 +4,19 @@
     <?= js('https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.1.8/index.global.min.js') ?>
 
     <script>
+      let isMobile = window.matchMedia("(max-width:768px)").matches;
+      console.log('mobile el', isMobile);
+
       document.addEventListener('DOMContentLoaded', function () {
         const apikey = <?= json_encode(env('GOOGLE_API_KEY')) ?>;
 
         const calendarEl = document.getElementById('calendar');
 
         const calendar = new FullCalendar.Calendar(calendarEl, {
-          // height: '100%',
+          
+          // height: isMobile ? '100%' : auto,
+          aspectRation: 3,
+          contentHeight: 900,
           initialView: 'multiMonthYear',
           multiMonthMaxColumns: 1,
           googleCalendarApiKey: apikey,
@@ -20,7 +26,13 @@
         });
 
         calendar.render();
+
+        // let ar = isMobile ? 2 : 0.8;
+        // console.log(ar);
+        // calendar.setOption('aspectRatio', ar);
       });
+
+
     </script>
   <?php endslot() ?>
 <?php endsnippet() ?>
