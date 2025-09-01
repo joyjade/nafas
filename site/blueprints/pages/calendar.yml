@@ -1,6 +1,10 @@
 title: Calendar
 icon: 📅
 
+options:
+  url: false
+  status: false
+  delete: false
 
 sections:
   calendar:

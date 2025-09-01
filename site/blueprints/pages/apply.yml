@@ -1,5 +1,10 @@
 title: Apply
 
+options:
+  url: false
+  status: false
+  delete: false
+
 columns:
   main:
     width: 2/3

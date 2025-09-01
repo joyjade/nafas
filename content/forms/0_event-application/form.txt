@@ -1,0 +1,25 @@
+Title: Event Application
+
+----
+
+Fields: [{"attrs":[],"columns":[{"blocks":[{"content":{"key":"name","label":"Name","placeholder":"","required":"false","errormessage":""},"id":"0830d65e-ef1e-4ab8-b49a-19b516f79030","isHidden":false,"type":"text-field"},{"content":{"key":"reason","label":"Reason","placeholder":"","required":"false","errormessage":""},"id":"b3cabd4a-3ff3-4af2-bf94-d7e07db3fc24","isHidden":false,"type":"text-field"},{"content":{"key":"dates","label":"Dates","placeholder":"","required":"false","errormessage":""},"id":"8f602e31-57e5-48b8-a347-86f6aad9b334","isHidden":false,"type":"text-field"}],"id":"7736ed92-9fa2-4e12-84f4-a4336975380c","width":"1/1"}],"id":"1f8d4d2f-082c-4f57-9ab6-458093412271"}]
+
+----
+
+Actions: 
+
+----
+
+Successmessage: 
+
+----
+
+Continueonerror: false
+
+----
+
+Storesubmissions: true
+
+----
+
+Uuid: la5ywjlnf5gzcgmn

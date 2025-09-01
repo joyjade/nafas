@@ -1,5 +1,22 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+tabs: 
+  main:
+    sections:
+      primary:
+        type: pages
+        label: Pages
+        template:
+          - about
+          - apply
+          - calendar
+  events:
+    sections:
+      events:
+        type: pages
+        parent: site.find('events')
+  traces:
+    sections:
+      traces:
+        type: pages
+        parent: site.find('traces')

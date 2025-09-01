@@ -1,4 +1,4 @@
-title: Post
+title: Event
 icon: draft
 
 columns: 
@@ -16,7 +16,6 @@ columns:
       type: time
       display: HH:mm
 
-
       
   sidebar:
     width: 1/3
@@ -26,15 +25,3 @@ columns:
         type: files
         multiple: false
         help: Please select which Reading this Annotation covers
-      byline: 
-        type: structure
-        label: Byline
-        fields: 
-          action:
-            label: Published/Revised
-            type: text
-          name:
-            label: Name
-            type: text
-          date: 
-            type: date
