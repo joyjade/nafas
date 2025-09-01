@@ -70,6 +70,9 @@
     text-align: end;
   }
 
+  h3 {
+    font-size: 1.2em;
+  }
   
   .header {
     position: fixed;
@@ -93,6 +96,7 @@
 
   nav {
     top: 31px;
+    z-index: 100;
   }
 
   main {
