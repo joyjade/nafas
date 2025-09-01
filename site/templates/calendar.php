@@ -7,16 +7,39 @@
       let isMobile = window.matchMedia("(max-width:768px)").matches;
       console.log('mobile el', isMobile);
 
-      document.addEventListener('DOMContentLoaded', function () {
-        const apikey = <?= json_encode(env('GOOGLE_API_KEY')) ?>;
 
+      function calculateUsedSpace() {
+        let viewportHeight = window.innerHeight;
+
+        const usedElements = document.querySelectorAll('.header, .legend, main h3');
+        let usedHeight = 0;
+
+        usedElements.forEach(el => {
+          usedHeight += el.offsetHeight;
+        });
+
+        // Remaining/empty vertical space
+        let emptyHeight = viewportHeight - usedHeight - 25;
+
+        console.log('Viewport Height:', viewportHeight);
+        console.log('Used Height by Elements:', usedHeight);
+        console.log('Empty Vertical Space:', emptyHeight);
+
+        return emptyHeight; 
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+
+        // CALENDAR
+        const apikey = <?= json_encode(env('GOOGLE_API_KEY')) ?>;
         const calendarEl = document.getElementById('calendar');
 
         const calendar = new FullCalendar.Calendar(calendarEl, {
-          
-          // height: isMobile ? '100%' : auto,
-          // aspectRatio: 3,
-          // contentHeight: 900,
+          height: calculateUsedSpace(),
+          aspectRatio: isMobile ? 1 : 1.5,
+          windowResize: function(arg) {
+            calendar.setOption('height', calculateUsedSpace());
+          },
           initialView: 'multiMonthYear',
           multiMonthMaxColumns: 1,
           googleCalendarApiKey: apikey,
@@ -39,10 +62,8 @@
 
         calendar.render();
 
-        // let ar = isMobile ? 2 : 0.8;
-        // console.log(ar);
-        // calendar.setOption('aspectRatio', ar);
-      });
+
+    });
 
 
     </script>

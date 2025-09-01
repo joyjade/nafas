@@ -165,7 +165,7 @@ form button {
 
 #calendar {
   max-width: 890px;
-  max-height: calc( 100vh - 100px);
+  /* max-height: calc( 100vh - 100px); */
   font-family: var(--sub-font);
   padding-top: 1rem;
 }

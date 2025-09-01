@@ -109,23 +109,12 @@
     padding-bottom: 7rem;
     background: linear-gradient(
       to bottom, 
-      var(--bg-color) 75%, 
+      var(--bg-color) 62%, 
       rgb(242, 234, 221, 0) 98%
     );
   }
-
-  #calendar {
-    height: calc( 100vh - 200px);
-  }
-
-    /* Increase height of each month cell */
-  .fc-multimonth-month {
-    height: 50vh !important; /* or auto */
-  }
-
-  /* Or increase day grid row height (affects each week row inside month) */
-  .fc-multimonth-daygrid-table {
-    min-height: 41vh; /* Adjust as needed */
+  .fc .fc-multimonth-title {
+    padding: 0.5rem;
   }
 }
 
