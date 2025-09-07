@@ -19,7 +19,7 @@
         });
 
         // Remaining/empty vertical space
-        let emptyHeight = viewportHeight - usedHeight - 25;
+        let emptyHeight = viewportHeight - usedHeight - 40;
 
         console.log('Viewport Height:', viewportHeight);
         console.log('Used Height by Elements:', usedHeight);

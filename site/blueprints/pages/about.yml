@@ -9,6 +9,26 @@ sections:
   fields:
     type: fields
     fields:
+      intro: 
+        type: blocks
+        fieldsets:
+          - heading
+          - text
+          - list
+          - image
+          - gallery
+          - line
+          - video
       text:
         type: textarea
-        size: huge
+      application:
+        label: Application Details
+        type: blocks
+        fieldsets:
+          - heading
+          - text
+          - list
+          - image
+          - gallery
+          - line
+          - video

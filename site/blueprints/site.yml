@@ -10,6 +10,7 @@ tabs:
           - about
           - apply
           - calendar
+          - events
   events:
     sections:
       events:

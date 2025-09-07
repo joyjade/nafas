@@ -1,20 +1,14 @@
+
 <?php snippet('nav') ?>
 <main>
+  <h3><?= $page->heading()->kirbytext() ?></h3>
   <?php foreach($page->children()->listed() as $event) : ?>
     <div class="event">
       <a href="<?= $event-> url() ?>">
-      <h3>
-        <?= $event->title() ?>
-      </h3>
-      <date><?= $event->date()->toDate('l, F jS') ?>, <?= $event->time()->toDate('g:i a')?></date>
+      <date><?= $event->date()->toDate('l, F jS') ?></date>
       <p>
-        <?= $event->description() ?>
+        <?= $event->title() ?>
       </p>
-      <!-- <?php if ($photo = $event->photo()->toFile()) : ?>
-      <figure>
-        <img src="<?= $photo->url() ?>" alt="<?= $photo->alt() ?>">
-      </figure>
-      <?php endif ?> -->
     </a>
     </div>
   <?php endforeach ?> 

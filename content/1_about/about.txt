@@ -2,30 +2,27 @@ Title: About
 
 ----
 
+Intro: [{"content":{"level":"h2","text":"nafas is an artist residency space in Denver, Colorado."},"id":"a60a4238-03b0-42bc-a3a6-79e7f21f9651","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"~ place to breath and dedicate time to a project."},"id":"ecd3e3c5-83af-4285-b574-05b88e87c164","isHidden":false,"type":"heading"},{"content":{"text":"<p>One bedroom apartment for one to three weeks</p>"},"id":"592e9291-355d-4892-bccd-9687e82859e1","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://osotlxev0aq0r1yv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fe039dc4-0cc1-451b-813a-b8a1c0f29d36","isHidden":false,"type":"image"}]
+
+----
+
 Text:
 
-### nafas is a residency space in Denver, Colorado. 
-</br>
-
-~a place to breath and dedicate time to a project
-~a one bedroom apartment for one to three weeks
-
-</br>
-(image: file://osotlxev0aq0r1yv)
-
-</br>
 ### for whom
 
 ~for artists, scholars and writers
 ~specifically for those who experience barriers to other residency spaces
 ~BIPOC artists/researchers or someone working on topics 
 
-</br>
 ### funding
 
 ~pay what you can 
 ~for those that need it: flights will be covered
 ~if you can afford it, chip in for a future resident
+
+----
+
+Application: [{"content":{"level":"h2","text":"Application Requirements"},"id":"1c76f18a-696a-418a-b8a8-fca2e2c6e7e5","isHidden":false,"type":"heading"},{"content":{"text":"<p>Applicants must submit:</p>"},"id":"eb29ef22-05dd-46ec-a94f-89ac42300a05","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>A sample of work—fiction, nonfiction, or poetry—aimed at an adult audience</li><li>For fiction and nonfiction, the sample must be between forty and fifty double spaced pages</li><li>For poetry, the sample must be eight to twelve pages</li><li>The sample can include previously published work and does not need to be from a single section of the work</li></ul>"},"id":"a935f711-445e-4542-ad91-900aabb4b466","isHidden":false,"type":"list"},{"content":{"text":"<p>A Statement of Purpose of no more than 500 words</p><p>Please note: The applicant’s name and contact information must not be anywhere on the writing sample or the Statement of Purpose—this includes within the uploaded file name.</p>"},"id":"ced6371d-88a4-46e1-a26f-ee4599cf5ecd","isHidden":false,"type":"text"}]
 
 ----
 

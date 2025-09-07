@@ -9,7 +9,7 @@
   --tertiary-color: #283337;
   --thin-border: 1.5px solid var(--secondary-color);
 
-  --spacing: 0.5rem 0.75rem;
+  --spacing: 1.25rem 1.25rem 2rem 1.5rem;
  }
  
  /* RESETS */
@@ -26,7 +26,7 @@
 }
 
 ::selection {
-	background-color: var(--tertiary-color);
+	background-color: var(--primary-color);
 	color: white;
 }
 
@@ -43,33 +43,6 @@ img {
   width: auto;
 }
 
-
-/* TYPOGRAPHY */
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-  font-family: var(--main-font);
-}
-
-h3 {
-  font-size: 1.8rem;
-}
-
-a:hover {
-  /* text-decoration: underline; */
-}
-
-/* LAYOUT */
-
-body {
-  font-family: var(--main-font);
-
-  padding: var(--spacing);
-  font-size: 1.3rem;
-  background-color: var(--bg-color);
-}
-
-
 /* MENU */
 
 .title, nav {
@@ -79,6 +52,9 @@ body {
   padding: var(--spacing);
 }
 
+.title {
+  font-size: 1.5rem;
+}
 nav {
   top: 50%;
   transform: translateY(-70%);
@@ -103,6 +79,59 @@ nav ul li .active, nav a:hover {
 }
 
 
+/* LAYOUT and TYPE*/
+
+body {
+  font-family: var(--main-font);
+
+  padding: var(--spacing);
+  font-size: 1.3rem;
+  background-color: var(--bg-color);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+  font-family: var(--main-font);
+}
+
+a:hover {
+  /* text-decoration: underline; */
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+main {
+  max-width: 80vw;
+}
+
+
+/* ABOUT */
+
+
+.about section, .about h3 {
+  font-size: 1.3rem;
+}
+.about section {
+  padding-bottom: 4rem;
+}
+
+.about section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.about section p {
+  margin-bottom: 1rem;
+}
+
+.about section ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
 
 
 /* FORMS */
@@ -272,7 +301,7 @@ form button {
 
 /* EVENTS */
 
-.events .event {
+/* .events .event {
   height: 100px;
   padding-left: 20px;
   margin-bottom: 1rem;
@@ -285,8 +314,28 @@ form button {
 }
 .events .event:nth-of-type(3n + 2) {
   border-left: 8px solid var(--secondary-color);
+} */
+
+.events .event a, .event .heading {
+  padding :0.8rem 0.25rem;
+  display: flex;
+  justify-content: space-between;
 }
 
+.events .event a {
+  border-bottom: var(--thin-border);
+}
+.events .event a:hover {
+  color: var(--secondary-color)
+}
+
+.event .heading {
+  border-top: var(--thin-border);
+}
+
+.events h3 {
+  margin-bottom: 2rem;
+}
 .events figure img {
   max-width: 200px;
   max-height: 200px;
@@ -296,6 +345,31 @@ form button {
 
 .event date {
   display: block;
-  padding-bottom: 1rem;
 }
 
+.event section img {
+  width: 300px;
+  margin: auto;
+}
+
+.event section figure {
+  width: 100%;
+  padding: 3rem;
+  padding-bottom: 5rem;
+  display: flex; 
+  justify-content: center;
+}
+
+.event section h3 {
+  padding-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.event section {
+  margin-top: 1rem;
+}
+
+.event section p {
+  margin-bottom: 1rem;
+
+}
