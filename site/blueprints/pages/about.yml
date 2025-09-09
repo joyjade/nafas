@@ -36,3 +36,29 @@ sections:
           - line
           - persian
           - quote
+      team:
+        label: Who we are
+        type: blocks
+        fieldsets:
+          fieldsets:
+          - heading
+          - text
+          - list
+          - image
+          - gallery
+          - line
+          - persian
+          - quote
+      space:
+        label: Space
+        type: blocks
+        fieldsets:
+          fieldsets:
+          - heading
+          - text
+          - list
+          - image
+          - gallery
+          - line
+          - persian
+          - quote

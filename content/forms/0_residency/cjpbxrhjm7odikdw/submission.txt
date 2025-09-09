@@ -1,7 +1,3 @@
-Approval: pending
-
-----
-
 Name: 
 
 ----
@@ -14,11 +10,23 @@ Type-of-residency: writing
 
 ----
 
+Timeline: 
+
+----
+
 Describe-your-project-200: 
 
 ----
 
+Bio: 
+
+----
+
 Residency: 
+
+----
+
+Approval: pending
 
 ----
 

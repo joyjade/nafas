@@ -7,10 +7,11 @@
   --persian: "Noto Naskh Arabic", serif;
 
   --bg-color: #F2EADD;
-  --primary-color: #464426;
+  --primary-color: #2E482F;
   --secondary-color: #B1B199;
-  --tertiary-color: #1d2c32;
-  --bang-color: #DD4A00; 
+  --tertiary-color: #196659;
+  /* --tertiary-color: #027C67; 1d2c32; 264645; green: 464426*/
+  --bang-color: #8D0A0D; 
   --thin-border: 1.5px solid var(--secondary-color);
 
   --spacing: 1rem 1.5rem;
@@ -58,10 +59,13 @@ img {
   right: 0;
   top: 0;
   padding: var(--spacing);
+  text-align: right;
+  color: var(--bang-color);
 }
 
-.title a, nav a {
+.title a, nav a, .events a, .back {
   text-decoration: none;
+  color: var(--tertiary-color);
 }
 
 .title {
@@ -88,7 +92,10 @@ nav ul li {
 }
 
 nav ul li .active {
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 15px;
+  padding: 0.5rem 0.75rem;
 }
 
 
@@ -117,7 +124,7 @@ h3 {
 }
 
 main {
-  max-width: calc( 100vw - 280px );
+  max-width: calc( 100vw - 300px );
 }
 
 
@@ -131,8 +138,9 @@ main {
   font-size: 2.2rem;
   position: relative;
   display: inline-block;
-  width: 300px;
-  height: 200px;
+  width: 204px;
+  max-width: 46vw;
+  height: 150px;
 }
 
 .lung:last-of-type {
@@ -170,18 +178,16 @@ main {
 .sage { color: var(--secondary-color) }
 .blue { color: var(--tertiary-color) }
 
-.about {
-  padding-left: 2rem;
-}
 .about .fa {
   text-align: right;
+  padding-top: 3rem;
 }
 
 .about section.intro {
   min-height: 95vh;
   display: grid;
   grid-template-rows: 1fr 1fr auto auto; 
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .about .intro figure {
@@ -225,6 +231,31 @@ main {
   margin-bottom: 1rem;
 }
 
+.about .button {
+  padding: 0.75rem 3rem;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.about section figure ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 0;
+  margin-top: 3rem;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+}
+
+.about section figure ul li {
+  margin-right: 1rem;
+  max-width: 250px;
+}
+
+.about section figure ul li img {
+  width: 100%;
+}
 
 /* FORMS */
 
@@ -238,6 +269,7 @@ form {
 
 .field {
   padding-right: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .field label {
@@ -246,12 +278,15 @@ form {
 }
 
 form .text {
-  margin: 1rem 0;
+  margin: 1rem 0 1.5rem;
 }
 
 form input, form textarea, form select {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: var(--sub-font);
+  padding: 1.25rem 0.75rem ;
+  font-size: 1.1rem;
 }
 
 form input:not([type="file"]), form select {
@@ -268,7 +303,7 @@ form textarea {
   height: 200px
 }
 
-button, form input::file-selector-button {
+button, form input::file-selector-button, .button {
   background-color: transparent;
   font-size: 1.2rem;
   font-family: var(--main-font);
@@ -276,6 +311,12 @@ button, form input::file-selector-button {
   border-radius: 20px;
   padding: 0.5rem 1rem;
   height: 100%;
+  text-decoration: none;
+}
+
+button:hover , form input::file-selector-button:hover, .button:hover {
+ background-color: var(--secondary-color);
+ color: white;
 }
 
 form button {

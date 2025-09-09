@@ -25,7 +25,7 @@
 <body class="<?= $page->template() ?>">
   <div class="header">
     <div class="title">
-      <a href="<?= $site->url() ?>"><?= $site->title() ?></a>
+      <a href="<?= $site->url() ?>"><?= $site->title() ?></br>نفس</a>
     </div>
   </div>
 

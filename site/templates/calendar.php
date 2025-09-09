@@ -32,6 +32,7 @@
 
         // CALENDAR
         const apikey = <?= json_encode(env('GOOGLE_API_KEY')) ?>;
+        const calid = <?= json_encode(env('GOOGLE_CAL_ID')) ?>;
         const calendarEl = document.getElementById('calendar');
 
         const calendar = new FullCalendar.Calendar(calendarEl, {
@@ -50,12 +51,12 @@
               failure: function () {
                 alert('There was an error while fetching Kirby events!');
               },
-              color: '#283337',   // optional color for Kirby events
+              color: '#00B9B0',   // optional color for Kirby events
             },
             {
-              googleCalendarId: '77tv948plsl94dj18n90pub6as@group.calendar.google.com',
+              googleCalendarId: calid,
               className: 'gcal-event',
-              color: '#4A4F3C' // optional
+              color: '#2E482F' // optional
             }
           ]
         });
@@ -75,11 +76,11 @@
   <div class="legend">
     <ul>
       <li>
-        <span class="dot" style="background-color: #4A4F3C"></span>
+        <span class="dot" style="background-color: #2E482F"></span>
         Residency in Progress
       </li>
       <li>
-        <span class="dot" style="background-color: #283337"></span>
+        <span class="dot" style="background-color: #00B9B0"></span>
         Event
       </li>
     </ul>
