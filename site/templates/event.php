@@ -1,6 +1,6 @@
 <?php snippet('nav') ?>
 <main>
-  <a href="<?=$page->parent()->url() ?>">Back to all Events</a>
+  <a class="back" href="<?=$page->parent()->url() ?>">Back to all Events</a>
   <section>
     <div class="heading">
       <date><?= $page->date()->toDate('l, F jS') ?>, <?= $page->time()->toDate('g:i a')?></date>

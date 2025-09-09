@@ -4,11 +4,7 @@ Title: About
 
 Intro:
 
-[{"content":{"text":"<p>&nbsp;نفس</p><p>ما مرده دلان را ز کف غم برهانیم&nbsp; &nbsp; &nbsp; /&nbsp; &nbsp; چون روح نفس در نفس صور گرفتیم &nbsp; (امیرخسرو دهلوی)</p><p>فضای چرخ مقام نفس کشیدن نیست&nbsp; / نفس کجاست که بر بام این حصار روم &nbsp; (صائب تبریزی)</p>"},"id":"1bac6d61-790a-4dcc-8bae-018cb04d1b62","isHidden":false,"type":"persian"},{"content":{"location":"kirby","image":["file://osotlxev0aq0r1yv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"72ff54c4-4ad9-4d5e-a473-bd2549e53672","isHidden":false,"type":"image"},{"content":{"text":"<p>Nafas نفس  is the Persian word for “Breath.” </p><p>Nafas Residency is a space to breathe, to open a parenthesis in the midst of the chaos of life to be able to focus on your artistic, creative, critical, and/or scholarly practice.</p>"},"id":"0e273e01-e9e5-4864-a420-3fae5c44da3c","isHidden":false,"type":"text"}]
-
-----
-
-Text: 
+[{"content":{"text":"<p>&nbsp;ما مرده دلان را ز کف غم برهانیم&nbsp; &nbsp; &nbsp; /&nbsp; &nbsp; چون روح نفس در نفس صور گرفتیم &nbsp; (امیرخسرو دهلوی)</p><p>فضای چرخ مقام نفس کشیدن نیست&nbsp; / نفس کجاست که بر بام این حصار روم &nbsp; (صائب تبریزی)</p>"},"id":"1bac6d61-790a-4dcc-8bae-018cb04d1b62","isHidden":false,"type":"persian"},{"content":{"text":"<p>Nafas نفس  is the Persian word for “Breath.” </p><p>Nafas Residency is a space to breathe, to open a parenthesis in the midst of the chaos of life to be able to focus on your artistic, creative, critical, and/or scholarly practice.</p>"},"id":"0e273e01-e9e5-4864-a420-3fae5c44da3c","isHidden":false,"type":"text"}]
 
 ----
 
@@ -16,7 +12,19 @@ Residency: [{"content":{"level":"h2","text":"Residency"},"id":"3bb5e96c-0f1f-456
 
 ----
 
-Application: [{"content":{"level":"h2","text":"<strong>How to Apply</strong>"},"id":"1c76f18a-696a-418a-b8a8-fca2e2c6e7e5","isHidden":false,"type":"heading"},{"content":{"text":"<p>To keep the residency accessible, we are keeping our application process simple.&nbsp;</p><p>Send us:&nbsp;</p>"},"id":"eb29ef22-05dd-46ec-a94f-89ac42300a05","isHidden":false,"type":"text"},{"content":{"text":"<ol><li>a short (maximum one page) statement of purpose or proposal for what you want to work on throughout your time at Nafas and why you have chosen Nafas.&nbsp;</li><li>a biography of yourself with any relevant information you want us to know about you—your background, education, practice, vision, etc.&nbsp;</li></ol>"},"id":"7d9fcf85-b177-49f3-a53e-30986e7ca894","isHidden":false,"type":"list"},{"content":{"text":"<p>Please <a href=\"/@/page/4tDt75YL1k73HSaM\">consult the calendar</a> to see what timelines are open, then fill out the form / indicate two timelines of your preference. The duration of the residencies can be between one week to three weeks. &nbsp;</p><p>The same guidelines apply for boarding or events.&nbsp;</p>"},"id":"ced6371d-88a4-46e1-a26f-ee4599cf5ecd","isHidden":false,"type":"text"}]
+Application: [{"content":{"level":"h2","text":"<strong>How to apply</strong>"},"id":"1c76f18a-696a-418a-b8a8-fca2e2c6e7e5","isHidden":false,"type":"heading"},{"content":{"text":"<p>To keep the residency accessible, we are keeping our application process simple.&nbsp;</p><p>Send us:&nbsp;</p>"},"id":"eb29ef22-05dd-46ec-a94f-89ac42300a05","isHidden":false,"type":"text"},{"content":{"text":"<ol><li>a short (maximum one page) statement of purpose or proposal for what you want to work on throughout your time at Nafas and why you have chosen Nafas.&nbsp;</li><li>a biography of yourself with any relevant information you want us to know about you—your background, education, practice, vision, etc.&nbsp;</li></ol>"},"id":"7d9fcf85-b177-49f3-a53e-30986e7ca894","isHidden":false,"type":"list"},{"content":{"text":"<p>Please <a href=\"/@/page/4tDt75YL1k73HSaM\">consult the calendar</a> to see what timelines are open, then fill out the form / indicate two timelines of your preference. The duration of the residencies can be between one week to three weeks. &nbsp;</p><p>The same guidelines apply for boarding or events.&nbsp;</p>"},"id":"ced6371d-88a4-46e1-a26f-ee4599cf5ecd","isHidden":false,"type":"text"}]
+
+----
+
+Team: [{"content":{"level":"h2","text":"<strong>Who we are</strong>"},"id":"a30ea04e-d82d-49c0-9d1f-90ff215c1ae2","isHidden":false,"type":"heading"},{"content":{"text":"<p>poupeh missaghi is a writer, translator, editor, and educator.&nbsp;</p><p>David Osburn is a painter.&nbsp;</p><p>At a time when arts and humanities along with certain communities are losing their much-needed resources, our hope is to offer a refuge to artists and thinkers to help them sustain their urgent practices of imagination and world building.&nbsp;</p>"},"id":"c36b37b7-57e1-449c-9ee4-9d951abe055b","isHidden":false,"type":"text"}]
+
+----
+
+Space: [{"content":{"level":"h2","text":"<strong>What to know about the space</strong>"},"id":"e4aa5a9f-e207-40f8-9ba7-ca277454724c","isHidden":false,"type":"heading"},{"content":{"text":"<p>Nafas Residency is a renovated and furnished one-bedroom apartment in a three-unit farmhouse built in 1895. Located in the highly walkable Washington Park neighborhood of Denver, you have grocery stores and restaurants close by. </p>"},"id":"fe9d2fb2-eee5-431f-93da-71c9f37a732e","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>The apartment has two staircases, one from the entrance foyer to the main level and another (somewhat narrow and steep) from the second floor to the attic bedroom. </li><li>The bedroom includes two twin beds.&nbsp;</li><li>The kitchen is fully equipped, and you have basic food items available upon your arrival. &nbsp;</li><li>The main second floor has a balcony, facing west, and the attic bedroom opens to a large deck, facing east, which means you can enjoy the unique skies of Denver among the trees.&nbsp; &nbsp;</li></ul>"},"id":"c749b20b-0091-4873-92f4-ceefa15c4476","isHidden":false,"type":"list"},{"content":{"images":["file://n92gwz6gktiqlxr3","file://tby9gg24ip3qideg","file://enct2yminl4odoqk"],"caption":"","ratio":"","crop":"false"},"id":"61ca5258-82a9-42c3-843e-6990331fbe14","isHidden":false,"type":"gallery"}]
+
+----
+
+Text: 
 
 ----
 
