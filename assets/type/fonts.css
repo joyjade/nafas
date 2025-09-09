@@ -36,3 +36,9 @@
   src: url("C059-BdIta.ttf") format("truetype"),
 }
 
+
+@font-face {
+  font-family: "NotoNaskh";
+  src: url("NotoNaskhArabic-Regular.ttf") format("truetype");
+  unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF; /* Arabic/Persian Unicode range */
+}

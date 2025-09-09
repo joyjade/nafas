@@ -1,0 +1,7 @@
+name: Persian
+icon: asterisk
+preview: fields
+wysiwyg: true
+fields:
+  text:
+    type: writer

@@ -1,15 +1,18 @@
 /* GLOBAL */
 :root {
-  --main-font: 'Asul', Times, serif;
-  --sub-font: 'C059', Times, serif;
-  --body-font: 'Asul', Times, serif;
+  --main-font: 'Asul', 'NotoNaskh', Times, serif;
+  --sub-font: 'C059','NotoNaskh', Times, serif;
+  --body-font: 'Asul', 'NotoNaskh', Times, serif;
+
+  --persian: "Noto Naskh Arabic", serif;
+
   --bg-color: #F2EADD;
-  --primary-color: #4F4E3C;
+  --primary-color: #464426;
   --secondary-color: #B1B199;
-  --tertiary-color: #283337;
+  --tertiary-color: #1d2c32;
   --thin-border: 1.5px solid var(--secondary-color);
 
-  --spacing: 1.25rem 1.25rem 2rem 1.5rem;
+  --spacing: 1rem 1.5rem;
  }
  
  /* RESETS */
@@ -26,7 +29,7 @@
 }
 
 ::selection {
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 	color: white;
 }
 
@@ -35,8 +38,12 @@ ul {
 }
 
 a {
-  color: currentColor;
-  text-decoration: none;
+  color: var(--tertiary-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--secondary-color);
 }
 
 img {
@@ -52,9 +59,14 @@ img {
   padding: var(--spacing);
 }
 
+.title a, nav a {
+  text-decoration: none;
+}
+
 .title {
   font-size: 1.5rem;
 }
+
 nav {
   top: 50%;
   transform: translateY(-70%);
@@ -74,8 +86,8 @@ nav ul li {
   color: var(--secondary-color);
 }
 
-nav ul li .active, nav a:hover {
-  color: var(--tertiary-color);
+nav ul li .active {
+  color: var(--primary-color);
 }
 
 
@@ -104,32 +116,64 @@ h3 {
 }
 
 main {
-  max-width: 80vw;
+  max-width: calc( 100vw - 280px );
 }
 
 
 /* ABOUT */
 
+.about {
+  padding-left: 2rem;
+}
+.about .fa {
+  text-align: right;
+}
+
+.about section.intro {
+  min-height: 95vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  padding-bottom: 1rem;
+}
+
+.about .intro figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 8vh 9vh 9vh;  */
+}
+
+.about .intro figure img {
+  max-height: 300px;
+  padding-bottom: 1rem;
+}
 
 .about section, .about h3 {
-  font-size: 1.3rem;
-}
-.about section {
-  padding-bottom: 4rem;
+  font-size: 1.5rem;
 }
 
-.about section h2 {
+.about section {
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: var(--thin-border);
+}
+
+.about h2 {
   font-size: 1.5rem;
+  font-weight: 700;
   margin-bottom: 1.4rem;
 }
 
 .about section p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .about section ul {
   list-style-type: disc;
-  margin-left: 1rem;
+}
+
+.about section ul, ol {
+  margin-left: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -163,7 +207,7 @@ form input, form textarea, form select {
 }
 
 form input:not([type="file"]), form select {
-  height: 25px;
+  height: 35px;
 }
 
 form input[type="file" i] {
@@ -330,6 +374,7 @@ form button {
 }
 
 .event .heading {
+  padding-top: 0.9rem;
   border-top: var(--thin-border);
 }
 

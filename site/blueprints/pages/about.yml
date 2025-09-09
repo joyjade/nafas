@@ -18,17 +18,21 @@ sections:
           - image
           - gallery
           - line
-          - video
-      text:
-        type: textarea
+          - persian
+          - quote
+      residency:
+        label: About the Residency
+        type: blocks
       application:
         label: Application Details
         type: blocks
         fieldsets:
+          fieldsets:
           - heading
           - text
           - list
           - image
           - gallery
           - line
-          - video
+          - persian
+          - quote
