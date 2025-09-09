@@ -10,6 +10,7 @@
   --primary-color: #464426;
   --secondary-color: #B1B199;
   --tertiary-color: #1d2c32;
+  --bang-color: #DD4A00; 
   --thin-border: 1.5px solid var(--secondary-color);
 
   --spacing: 1rem 1.5rem;
@@ -122,6 +123,53 @@ main {
 
 /* ABOUT */
 
+.lung-container {
+  display: flex;
+  justify-content: space-between;
+}
+.lung {
+  font-size: 2.2rem;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+}
+
+.lung:last-of-type {
+  align-self: flex-end;
+}
+
+.lung > * {
+  position: absolute;
+  display: inline-block;
+}
+
+.lung > span:nth-of-type(1) {
+  top: 0;
+  left: 0;
+}
+.lung > span:nth-of-type(2) {
+  top: 8px;
+  left: 50px;
+}
+.lung > span:nth-of-type(3) {
+  top: 27px;
+  left: 140px;
+}
+.lung > span:nth-of-type(4) {
+  top: 36px;
+  left: 120px;
+}
+.lung > span:nth-of-type(5){
+	top: 50px;
+	left: 190px;
+}
+
+.red { color: var(--bang-color) }
+.green { color: var(--primary-color) }
+.sage { color: var(--secondary-color) }
+.blue { color: var(--tertiary-color) }
+
 .about {
   padding-left: 2rem;
 }
@@ -132,7 +180,7 @@ main {
 .about section.intro {
   min-height: 95vh;
   display: grid;
-  grid-template-rows: auto 1fr auto; 
+  grid-template-rows: 1fr 1fr auto auto; 
   padding-bottom: 1rem;
 }
 
