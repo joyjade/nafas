@@ -137,7 +137,7 @@
   }
 
 
-.about {
-  padding-left: 2rem;
-}
+  body.about {
+    padding-left: 2rem;
+  }
 }

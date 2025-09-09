@@ -20,6 +20,7 @@ sections:
           - line
           - persian
           - quote
+          - button
       residency:
         label: About the Residency
         type: blocks
@@ -36,6 +37,7 @@ sections:
           - line
           - persian
           - quote
+          - button
       team:
         label: Who we are
         type: blocks
@@ -49,6 +51,7 @@ sections:
           - line
           - persian
           - quote
+          - button
       space:
         label: Space
         type: blocks
@@ -62,3 +65,4 @@ sections:
           - line
           - persian
           - quote
+          - button
