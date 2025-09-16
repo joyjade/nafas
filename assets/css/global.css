@@ -8,10 +8,14 @@
 
   --bg-color: #F2EADD;
   --primary-color: #2E482F;
+  --secondary-color: #8F9779;
+  --tertiary-color: #0eacac;
+  --bang-color: #700A0A; 
+  /* --primary-color: #2E482F;
   --secondary-color: #B1B199;
   --tertiary-color: #196659;
-  /* --tertiary-color: #027C67; 1d2c32; 264645; green: 464426*/
   --bang-color: #8D0A0D; 
+  --tertiary-color: #027C67; 1d2c32; 264645; green: 464426; turquoise: 00B9B0*/
   --thin-border: 1.5px solid var(--secondary-color);
 
   --spacing: 1rem 1.5rem;
@@ -60,7 +64,6 @@ img {
   top: 0;
   padding: var(--spacing);
   text-align: right;
-  color: var(--bang-color);
 }
 
 .title a, nav a, .events a, .back {
@@ -68,8 +71,17 @@ img {
   color: var(--tertiary-color);
 }
 
-.title {
+.title a, .title a:hover .fa {
   font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.title a .fa, .title a:hover {
+  color: var(--secondary-color);
+}
+
+nav a:hover {
+  color: var(--primary-color);
 }
 
 nav {
@@ -92,10 +104,7 @@ nav ul li {
 }
 
 nav ul li .active {
-  background-color: var(--primary-color);
-  color: white;
-  border-radius: 15px;
-  padding: 0.5rem 0.75rem;
+  color: var(--primary-color);
 }
 
 
@@ -124,16 +133,61 @@ h3 {
 }
 
 main {
-  max-width: calc( 100vw - 300px );
+  max-width: calc( 100vw - 350px );
 }
 
 
-/* ABOUT */
+/* INTRO */
+
+.home .fa p {
+  margin-bottom: 0;
+}
+
+.about .fa, .home .fa {
+  text-align: right;
+  margin-bottom: 3rem;
+}
+
+/* hard coding */
+
+.home .centered, .home .centered .fa {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+}
+
+.home .lung-container {
+  height: 60vh; 
+}
+
+.home section:last-of-type {
+  padding-bottom: 5rem;
+  margin-bottom: 30vh;
+}
+
+.home .centered .fa {
+  margin-bottom: 40vh;
+}
+
+
+.home section.intro {
+  padding: 2rem;
+  /* min-height: 95vh;
+  display: grid;
+  grid-template-rows: 40vh auto auto auto auto; 
+  border-bottom: none; */
+}
+
+/* hard coding */
 
 .lung-container {
   display: flex;
   justify-content: space-between;
+  height: 50vh; 
 }
+
 .lung {
   font-size: 2.2rem;
   position: relative;
@@ -178,38 +232,49 @@ main {
 .sage { color: var(--secondary-color) }
 .blue { color: var(--tertiary-color) }
 
-.about .fa {
-  text-align: right;
-  padding-top: 3rem;
-}
 
-.about section.intro {
-  min-height: 95vh;
-  display: grid;
-  grid-template-rows: 1fr 1fr auto auto; 
-  padding-bottom: 2rem;
-}
-
-.about .intro figure {
+.home .intro figure {
   display: flex;
   justify-content: center;
   align-items: center;
   /* padding: 8vh 9vh 9vh;  */
 }
 
-.about .intro figure img {
+.home .intro figure img {
   max-height: 300px;
   padding-bottom: 1rem;
 }
 
-.about section, .about h3 {
-  font-size: 1.5rem;
+.about .button, .home .button {
+  padding: 0.75rem 3rem;
+  border-radius: 50px;
+  font-size: 1.3rem;
+}
+
+.button-container {
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+/* ABOUT */
+
+.home section, .about section, .about h3 {
+  /* font-size: 1.5rem; */
+  font-size: 1.3rem;
+}
+
+.about main, .calendar main, .apply main, .events main, .event main { 
+  padding: 1rem;
+}
+
+.about .lung-container {
+  height: 25vh;
 }
 
 .about section {
-  padding-bottom: 2rem;
-  margin-bottom: 3rem;
-  border-bottom: var(--thin-border);
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+  /* border-bottom: var(--thin-border); */
 }
 
 .about h2 {
@@ -218,8 +283,13 @@ main {
   margin-bottom: 1.4rem;
 }
 
-.about section p {
-  margin-bottom: 1.2rem;
+.about section p, .home section p {
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.about .button-container {
+  margin-bottom: 2rem;
 }
 
 .about section ul {
@@ -229,14 +299,6 @@ main {
 .about section ul, ol {
   margin-left: 2rem;
   margin-bottom: 1rem;
-}
-
-.about .button {
-  padding: 0.75rem 3rem;
-  border-radius: 50px;
-  display: inline-block;
-  margin: 1rem 0;
-  font-size: 1.3rem;
 }
 
 .about section figure ul {
@@ -255,6 +317,17 @@ main {
 
 .about section figure ul li img {
   width: 100%;
+}
+
+body.about main {
+  padding-top: 2rem;
+}
+
+.apply main {
+  padding-top: 2rem;
+}
+.apply p {
+  font-size: 1.3rem;
 }
 
 /* FORMS */
@@ -297,6 +370,7 @@ form input[type="file" i] {
   font-size: 1rem;
   margin-top: 0.25rem;
   font-family: var(--sans);
+  padding: 0;
 }
 
 form textarea {
@@ -312,10 +386,12 @@ button, form input::file-selector-button, .button {
   padding: 0.5rem 1rem;
   height: 100%;
   text-decoration: none;
+  color: var(--secondary-color);
 }
 
 button:hover , form input::file-selector-button:hover, .button:hover {
- background-color: var(--secondary-color);
+ background-color: var(--primary-color);
+ border-color: var(--primary-color);
  color: white;
 }
 
@@ -360,6 +436,11 @@ form button {
   font-size: 1.25rem;;
 }
 
+#calendar a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 .fc .fc-toolbar.fc-header-toolbar {
   margin-bottom: 0.5rem;
 }
@@ -384,11 +465,11 @@ form button {
 .fc th {
   font-weight: 400;
 }
-
+/* 
 .fc .fc-button-primary:disabled {
   background-color: gray;
   border-color: gray; 
-}
+} */
 
 .fc .fc-multimonth {
   /* overflow: unset; */
@@ -403,11 +484,11 @@ form button {
   --fc-neutral-text-color: #808080;
   --fc-border-color: black;
 
-  --fc-button-text-color: black;
+  --fc-button-text-color: var(--primary-color);
   --fc-button-bg-color: transparent;
-  --fc-button-border-color: black;
-  --fc-button-hover-bg-color: #1e2b37;
-  --fc-button-hover-border-color: #1a252f;
+  --fc-button-border-color: var(--primary-color);
+  --fc-button-hover-bg-color: var(--secondary-color);
+  --fc-button-hover-border-color: var(--secondary-color);
   --fc-button-active-bg-color: #1a252f;
   --fc-button-active-border-color: #151e27;
 
@@ -427,7 +508,7 @@ form button {
   --fc-bg-event-color: rgb(143, 223, 130);
   --fc-bg-event-opacity: 0.3;
   --fc-highlight-color: rgba(188, 232, 241, 0.3);
-  --fc-today-bg-color: rgba(255, 220, 40, 0.15);
+  --fc-today-bg-color: var(--secondary-color);
   --fc-now-indicator-color: red;
 }
 
@@ -457,9 +538,11 @@ form button {
 
 .events .event a {
   border-bottom: var(--thin-border);
+  color: var(--primary-color);
 }
+
 .events .event a:hover {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 .event .heading {

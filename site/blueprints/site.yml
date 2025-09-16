@@ -11,6 +11,8 @@ tabs:
           - apply
           - calendar
           - events
+          - traces
+          - home
   events:
     sections:
       events:

@@ -2,4 +2,14 @@ Title: Home
 
 ----
 
+Intro:
+
+[{"content":{"text":"<p>&nbsp;ما مرده دلان را ز کف غم برهانیم&nbsp; &nbsp; &nbsp; /&nbsp; &nbsp; چون روح نفس در نفس صور گرفتیم &nbsp; (امیرخسرو دهلوی)</p><p>فضای چرخ مقام نفس کشیدن نیست&nbsp; / نفس کجاست که بر بام این حصار روم &nbsp; (صائب تبریزی)</p>"},"id":"1bac6d61-790a-4dcc-8bae-018cb04d1b62","isHidden":false,"type":"persian"},{"content":{"text":"<p>Nafas نفس  is the Persian word for “Breath.” </p><p>Nafas Residency is a space to breathe, to open a parenthesis in the midst of the chaos of life to be able to focus on your artistic, creative, critical, and/or scholarly practice.</p>"},"id":"0e273e01-e9e5-4864-a420-3fae5c44da3c","isHidden":false,"type":"text"},{"content":{"link":"page://op6jj23mbla3arrr","text":"Learn more","class":"","id":""},"id":"aa99f0cf-3d82-4dcc-b16d-531ac716d098","isHidden":false,"type":"button"}]
+
+----
+
+Photo: - file://2cet69cyk39pja47
+
+----
+
 Uuid: wFIdnB2YFU98eFCn
