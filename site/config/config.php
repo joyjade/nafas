@@ -21,7 +21,7 @@ return [
         'security' => 'starttls',
         'auth'     => true,
         'username' => 'info@nafasresidency.org',         
-        'password' => env('SMTP_APP_PASS')
+        'password' => 'your-app-password-here', 
       ]
     ],
 
