@@ -5,6 +5,7 @@
   display: block;
   position: absolute;
   right: 0;
+  top: 50px;
   padding-right: 1rem;
 }
 
@@ -118,8 +119,8 @@
 
   .m-nav.show {
     width: 100vw;
-    padding-top: 1rem;
-    padding-bottom: 7rem;
+    padding-top: 30vh;
+    padding-bottom: 70vh;
     background: linear-gradient(
       to bottom, 
       var(--bg-color) 62%, 
