@@ -7,24 +7,26 @@ return [
   ], 
   
   'debug'  => true,
-
-  	// Cache for speed ⚡
+  	
 	'cache.pages' => [
-		'active' => true
+		'active' => true // Cache for speed ⚡
 	],
 
-  'email' => [
-      'transport' => [
-        'type'     => 'smtp',
-        'host'     => 'smtp.gmail.com',
-        'port'     => 587,
-        'security' => 'starttls',
-        'auth'     => true,
-        'username' => 'info@nafasresidency.org',         
-        'password' => 'your-app-password-here', 
-      ]
-    ],
-
+  'ready' => function() {
+    return [
+      'email' => [
+          'transport' => [
+              'type' => 'smtp',
+              'host' => 'smtp.gmail.com',
+              'port' => 587,
+              'security' => 'starttls',
+              'auth' => true,
+              'username' => 'info@nafasresidency.org',
+              'password' => env('SMTP_APP_PASS'),
+          ],
+      ],
+    ];
+  },
 
  // Custom menu to show forms in the panel sidebar
   'panel.menu' => fn () => [
@@ -34,6 +36,7 @@ return [
     'system',
     // [...]
     ],
+    
   'routes' => [
     [
       'pattern' => 'api',
