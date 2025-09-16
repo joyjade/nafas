@@ -419,6 +419,7 @@ form button {
 .events .event a {
   border-bottom: var(--thin-border);
   color: var(--primary-color);
+  font-size: 1.5rem;
 }
 
 .events .event a:hover {

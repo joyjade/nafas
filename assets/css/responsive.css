@@ -192,6 +192,19 @@
   .apply form .row > div {
     grid-column-start: span 12 !important;
   }
+
+  .events h3 {
+    margin-bottom: 1rem;
+  }
+
+  .events .event a {
+    flex-flow: column;
+  }
+
+  .event date {
+    padding-bottom: 0.65rem;
+    font-size: 1.2rem;
+  }
 }
 
 /* tablet to desktop and up */
