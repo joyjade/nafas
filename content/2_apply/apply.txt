@@ -2,7 +2,7 @@ Title: Apply
 
 ----
 
-Text: <strong>How to apply:</strong><br><br>To keep the residency accessible, we are keeping our application process simple. Please fill out the form below. <br><br>Applications are taken on a rolling basis. Please check the <a href="/@/page/4tDt75YL1k73HSaM">Calendar</a> for availability.&nbsp;<br><br>The duration of the residencies can be between one week to three weeks. &nbsp;<br><br>Please use the same form below to apply for boarding or events.&nbsp;
+Text: [{"content":{"level":"h3","text":"<strong>How to apply</strong>"},"id":"f9895d95-bd32-4df9-816a-d8f6b6fe3110","isHidden":false,"type":"heading"},{"content":{"text":"<p>To keep the residency accessible, we are keeping our application process simple. Please fill out the form below. <br><br>Applications are taken on a rolling basis. Please check the <a href=\"/@/page/4tDt75YL1k73HSaM\">Calendar</a> for availability.&nbsp;<br><br>The duration of the residencies can be between one week to three weeks. &nbsp;<br><br>Please use the same form below to apply for boarding or events.&nbsp;</p>"},"id":"16e0508f-16e7-4531-909d-17e79f06bd1c","isHidden":false,"type":"text"}]
 
 ----
 

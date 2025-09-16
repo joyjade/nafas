@@ -18,7 +18,8 @@
   --tertiary-color: #027C67; 1d2c32; 264645; green: 464426; turquoise: 00B9B0*/
   --thin-border: 1.5px solid var(--secondary-color);
 
-  --spacing: 1rem 1.5rem;
+  /* --spacing: 1rem 1.5rem; */
+  --spacing: 1.5rem;
  }
  
  /* RESETS */
@@ -62,7 +63,7 @@ img {
   position: fixed;
   right: 0;
   top: 0;
-  padding: var(--spacing);
+  padding: 0.75rem 1rem;
   text-align: right;
 }
 
@@ -153,12 +154,8 @@ h3 {
 }
 
 main {
-  max-width: calc( 100vw - 390px );
+  max-width: calc( 100vw - 400px );
 }
-
-/* .about main, .calendar main, .apply main, .events main, .event main, .home main { 
-} */
-
 
 figcaption, .lightbox-caption {
   font-size: 1.1rem; 
@@ -308,17 +305,21 @@ figcaption, .lightbox-caption {
   width: 100%;
 }
 
+/* FORMS */
+
+.apply h3 { 
+  margin-bottom: 1.25rem;
+}
+
 .apply p {
   font-size: 1.3rem;
 }
-
-/* FORMS */
 
 form {
   font-family: var(--sub-font);
   font-size: 1.1rem;
   max-width: 1000px;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -432,6 +433,7 @@ form button {
 .events h3 {
   margin-bottom: 2rem;
 }
+
 .events figure img {
   max-width: 200px;
   max-height: 200px;

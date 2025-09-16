@@ -18,10 +18,8 @@ columns:
         type: fields
         fields:
           text:
-            toolbar:
-              inline: false
-            type: writer
-            inline: true
+            type: blocks
+            label: Instructions
           form: dreamform/fields/form
   sidebar:
     width: 1/3

@@ -204,19 +204,6 @@
     display: flex;
   }
 
-  form {
-
-  }
-
-  main {
-    /* padding: 1rem; */
-  }
-
-  .about main {
-    /* padding-top: 2rem; */
-  }
-
-
   .lung-container {
     height: 56vh; 
   }
@@ -235,9 +222,5 @@
 
   .about section {
     margin-bottom: 2rem;
-  }
-  
-  .apply main {
-    padding-top: 1rem;
   }
 }

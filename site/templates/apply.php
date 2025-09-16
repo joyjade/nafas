@@ -1,7 +1,7 @@
 <?php snippet('nav') ?>
 <main class="">
   <?php if (!$submission?->isFinished() ) :?>
-    <?= $page->text()->kirbytext() ?>
+    <?= $page->text()->toBlocks() ?>
   <?php endif ?>
   <?php snippet('dreamform/form', [
     'form' => $page->form()->toPage(),
