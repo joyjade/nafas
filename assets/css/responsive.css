@@ -83,6 +83,7 @@
   }
   
   .header {
+    z-index: 1;
     position: fixed;
     padding-bottom: 0.5rem;
     top: 0;
