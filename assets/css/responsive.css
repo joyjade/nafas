@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 1015px) {  
   :root {
-    --spacing: 0.5rem 1.25rem;
+    --spacing: 0.5rem 1rem;
   }
   .hamb {
     display: inline-block;
