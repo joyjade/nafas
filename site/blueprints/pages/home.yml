@@ -1,4 +1,10 @@
 title: home
+icon: 🍃
+
+image:
+  query: false 
+  back: black
+
 
 options:
   url: false
@@ -9,6 +15,10 @@ sections:
   fields:
     type: fields
     fields:
+      photo:
+        type: files
+        label: Banner Photo
+        multiple: false
       intro: 
         type: blocks
         fieldsets:
@@ -21,6 +31,3 @@ sections:
           - persian
           - quote
           - button
-      photo:
-        type: files
-        label: Photo

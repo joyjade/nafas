@@ -1,0 +1,15 @@
+title: Traces
+icon: 📰
+preset: pages
+
+image:
+  query: false 
+  back: black
+
+options:
+  url: false
+  delete: false
+
+    
+
+  

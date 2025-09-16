@@ -1,6 +1,11 @@
 title: Calendar
 icon: 📅
 
+image:
+  query: false 
+  back: black
+
+
 options:
   url: false
   status: false

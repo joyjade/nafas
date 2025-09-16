@@ -315,7 +315,7 @@ form {
 
 .field {
   padding-right: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .field label {
@@ -324,7 +324,11 @@ form {
 }
 
 form .text {
-  margin: 1rem 0 1.5rem;
+  /* margin: 1rem 0 1.5rem; */
+}
+
+form .text p {
+  font-size: 1rem;
 }
 
 form input, form textarea, form select {

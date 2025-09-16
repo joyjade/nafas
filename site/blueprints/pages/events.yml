@@ -1,6 +1,10 @@
 title: Events
 type: pages
-icon: 📰
+icon: 🎟️
+
+image:
+  query: false 
+  back: black
 
 options:
   url: false

@@ -7,12 +7,23 @@ tabs:
         type: pages
         label: Pages
         template:
+          - home
           - about
           - apply
           - calendar
           - events
           - traces
-          - home
+        status: published
+        sortBy: status desc date desc
+      forms: 
+        type: pages
+        parent: site.find('forms')
+        template: form
+        # forms: dreamform/pages/forms
+
+
+
+        
   events:
     sections:
       events:

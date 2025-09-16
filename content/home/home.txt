@@ -2,13 +2,13 @@ Title: Home
 
 ----
 
-Intro:
-
-[{"content":{"text":"<p>این یک نفس عزیز را خوش میدار &nbsp; &nbsp; &nbsp; &nbsp;کز حاصل عمر ما همین یک نفس است&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;(خیام)</p>"},"id":"1bac6d61-790a-4dcc-8bae-018cb04d1b62","isHidden":false,"type":"persian"},{"content":{"text":"<p>Nafas نفس  is the Persian word for “Breath.” </p><p>Nafas Residency is a space to breathe, to open a parenthesis in the midst of the chaos of life to be able to focus on your artistic, creative, critical, and/or scholarly practice.</p>"},"id":"0e273e01-e9e5-4864-a420-3fae5c44da3c","isHidden":false,"type":"text"},{"content":{"link":"page://op6jj23mbla3arrr","text":"Learn more","class":"","id":""},"id":"aa99f0cf-3d82-4dcc-b16d-531ac716d098","isHidden":false,"type":"button"}]
+Photo: - file://oakfwa8wyzdgszn6
 
 ----
 
-Photo: - file://vudkc9r7yqmz1ylj
+Intro:
+
+[{"content":{"text":"<p>این یک نفس عزیز را خوش میدار &nbsp; &nbsp; &nbsp; &nbsp;کز حاصل عمر ما همین یک نفس است&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;(خیام)</p>"},"id":"1bac6d61-790a-4dcc-8bae-018cb04d1b62","isHidden":false,"type":"persian"},{"content":{"text":"<p>Nafas نفس  is the Persian word for “Breath.” </p><p>Nafas Residency is a space to breathe, to open a parenthesis in the midst of the chaos of life to be able to focus on your artistic, creative, critical, and/or scholarly practice.</p>"},"id":"0e273e01-e9e5-4864-a420-3fae5c44da3c","isHidden":false,"type":"text"},{"content":{"link":"page://op6jj23mbla3arrr","text":"Learn more","class":"","id":""},"id":"aa99f0cf-3d82-4dcc-b16d-531ac716d098","isHidden":false,"type":"button"}]
 
 ----
 

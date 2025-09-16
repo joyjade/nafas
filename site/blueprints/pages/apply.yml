@@ -1,4 +1,9 @@
 title: Apply
+icon: 📠
+
+image:
+  query: false
+  back: black
 
 options:
   url: false

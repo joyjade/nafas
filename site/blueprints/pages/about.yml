@@ -1,4 +1,9 @@
 title: about
+icon: 🛋️
+
+image:
+  query: false
+  back: black
 
 options:
   url: false
