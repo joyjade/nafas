@@ -134,7 +134,7 @@ h3 {
 }
 
 main {
-  max-width: calc( 100vw - 350px );
+  max-width: calc( 100vw - 390px );
 }
 
 figcaption {
@@ -203,17 +203,15 @@ figcaption {
 .sage { color: var(--secondary-color) }
 .blue { color: var(--tertiary-color) }
 
+.intro figure img {
+  max-height: 300px;
+  padding-bottom: 2rem;
+}
 
-.home .intro figure {
+.intro figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 8vh 9vh 9vh;  */
-}
-
-.home .intro figure img {
-  max-height: 300px;
-  padding-bottom: 1rem;
 }
 
 .about .button, .home .button {
@@ -238,13 +236,16 @@ figcaption {
   padding: 1rem;
 }
 
+
 .about .lung-container {
-  height: 25vh;
+  height: auto
 }
+
 
 .about section {
   padding-bottom: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   /* border-bottom: var(--thin-border); */
 }
 
@@ -269,7 +270,7 @@ figcaption {
 
 .about section ul, ol {
   margin-left: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .about section figure ul {
@@ -281,9 +282,10 @@ figcaption {
   grid-template-columns: repeat(3, 1fr); */
 }
 
-.about section figure ul li {
+.about section figure, .about section figure img, .about section figure ul li {
   margin-right: 1rem;
-  max-width: 25vw;
+  max-width: 20vw;
+  display: inline-block;
 }
 
 .about section figure ul li img {

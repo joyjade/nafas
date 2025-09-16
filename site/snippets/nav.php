@@ -13,6 +13,7 @@
       'assets/css/global.css', 
       'assets/type/fonts.css', 
       'assets/css/responsive.css', 
+      'assets/css/lightbox.css',
       '@auto',
     ]) ?>
 

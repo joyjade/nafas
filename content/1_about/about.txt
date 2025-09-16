@@ -2,6 +2,10 @@ Title: About
 
 ----
 
+Lead: - file://rcfjc0dggxu4wqg4
+
+----
+
 Residency: [{"content":{"level":"h2","text":"Residency"},"id":"3bb5e96c-0f1f-456b-b4fd-2495bae01947","isHidden":false,"type":"heading"},{"content":{"text":"<p>Nafas offers residencies from one week to three weeks long and is run on a pay-as-you-wish system. We host writers, artists, and scholars of humanities disciplines who need a quiet solitary space to think, imagine, write, create, build communities, and resist through their offerings to the world. </p><p>Priority is given to artists/scholars from Southwest Asia and North Africa and other marginalized communities including BIPOC applicants. Please also apply if you are not part of these groups, but your work focuses on social justice issues or for various reasons cannot easily apply to other residencies. </p><p>You can <a href=\"/@/page/5c255teajdhcdx5k\">apply</a> either individually or come as a duo with your project collaborator. </p><p>The space can, additionally, be used as an artist/scholar boarding; so, if you are coming to Denver for a conference, presentation, or event, you can also apply to stay at Nafas. Or if you want to hold an art/scholarship small event, you can reach out to us.  </p><p>Nafas Residency is located in the Washington Park neighborhood of Denver, Colorado.</p>"},"id":"909c9810-fde4-4b90-977c-8d84a53a2668","isHidden":false,"type":"text"}]
 
 ----
@@ -14,38 +18,7 @@ Team: [{"content":{"level":"h2","text":"<strong>Who we are</strong>"},"id":"a30e
 
 ----
 
-Space: [{"content":{"level":"h2","text":"<strong>What to know about the space</strong>"},"id":"e4aa5a9f-e207-40f8-9ba7-ca277454724c","isHidden":false,"type":"heading"},{"content":{"text":"<p>Nafas Residency is a renovated and furnished one-bedroom apartment in a three-unit farmhouse built in 1895. Located in the highly walkable Washington Park neighborhood of Denver, you have grocery stores and restaurants close by. </p>"},"id":"fe9d2fb2-eee5-431f-93da-71c9f37a732e","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>The apartment has two staircases, one from the entrance foyer to the main level and another (somewhat narrow and steep) from the second floor to the attic bedroom. </li><li>The bedroom includes two twin beds.&nbsp;</li><li>The kitchen is fully equipped, and you have basic food items available upon your arrival. &nbsp;</li><li>The main second floor has a balcony, facing west, and the attic bedroom opens to a large deck, facing east, which means you can enjoy the unique skies of Denver among the trees.&nbsp; &nbsp;</li></ul>"},"id":"c749b20b-0091-4873-92f4-ceefa15c4476","isHidden":false,"type":"list"},{"content":{"images":["file://rcfjc0dggxu4wqg4","file://cu8vhyazui5wjj2f"],"caption":"Photos of the space","ratio":"","crop":"false"},"id":"61ca5258-82a9-42c3-843e-6990331fbe14","isHidden":false,"type":"gallery"}]
-
-----
-
-Lead:
-
-- 
-  id: nafas_staircase.jpg
-  image:
-    back: pattern
-    color: orange-500
-    cover: false
-    icon: image
-    url: >
-      http://nafas.test/media/pages/about/c69d550228-1757997244/nafas_staircase.jpg
-    src: >
-      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-    srcset: >
-      http://nafas.test/media/pages/about/c69d550228-1757997244/nafas_staircase-38x.jpg
-      38w,
-      http://nafas.test/media/pages/about/c69d550228-1757997244/nafas_staircase-76x.jpg
-      76w
-  info: ""
-  link: /pages/about/files/nafas_staircase.jpg
-  sortable: true
-  text: nafas_staircase.jpg
-  uuid: file://rcfjc0dggxu4wqg4
-  dragText: '(image: file://rcfjc0dggxu4wqg4)'
-  filename: nafas_staircase.jpg
-  type: image
-  url: >
-    http://nafas.test/media/pages/about/c69d550228-1757997244/nafas_staircase.jpg
+Space: [{"content":{"level":"h2","text":"<strong>What to know about the space</strong>"},"id":"e4aa5a9f-e207-40f8-9ba7-ca277454724c","isHidden":false,"type":"heading"},{"content":{"text":"<p>Nafas Residency is a renovated and furnished one-bedroom apartment in a three-unit farmhouse built in 1895. Located in the highly walkable Washington Park neighborhood of Denver, you have grocery stores and restaurants close by. </p>"},"id":"fe9d2fb2-eee5-431f-93da-71c9f37a732e","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>The apartment has two staircases, one from the entrance foyer to the main level and another (somewhat narrow and steep) from the second floor to the attic bedroom. </li><li>The bedroom includes two twin beds.&nbsp;</li><li>The kitchen is fully equipped, and you have basic food items available upon your arrival. &nbsp;</li><li>The main second floor has a balcony, facing west, and the attic bedroom opens to a large deck, facing east, which means you can enjoy the unique skies of Denver among the trees.&nbsp; &nbsp;</li></ul>"},"id":"c749b20b-0091-4873-92f4-ceefa15c4476","isHidden":false,"type":"list"},{"content":{"location":"kirby","image":["file://cu8vhyazui5wjj2f"],"src":"","alt":"","caption":"Apartment exterior","link":"","ratio":"","crop":"false"},"id":"11f3bcb4-ee11-49cf-928f-780c7875a3b4","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://rcfjc0dggxu4wqg4"],"src":"","alt":"","caption":"Staircase up to the apartment","link":"","ratio":"","crop":"false"},"id":"6c6657a9-cc26-439b-9572-d6d803e84c6d","isHidden":false,"type":"image"}]
 
 ----
 

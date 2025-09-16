@@ -1,65 +1,37 @@
 <?php snippet('nav') ?>
+
+
+
 <main class="">
-  <div class="lung-container">
-        <div class="lung">
-          <span class="red">(</span>
-          <span class="blue">(</span>
-          <span class="sage">(</span>
-          <span class="red">(</span>
-          <span class="sage">(</span>
-      </div>
+  <?php snippet('lungs', [ 'left' => true, 'right' => false, 'class' => 'intro' ], slots: true) ?>
+    <?php slot('photo') ?>
       <figure>
-        <!-- <?php dump($page->lead()->toFile()) ?> -->
-          <img src="<?= $page->lead()->url() ?>" alt="">
-        </figure>
-      <div class="lung">
-      </div>
-  </div>
+        <img src="<?= $page->lead()->toFile()->url() ?>" alt="">
+      </figure>
+    <?php endslot() ?>
+  <?php endsnippet() ?>
+
   <section>
     <?= $page->residency()->toBlocks() ?>
   </section>
-  <div class="lung-container">
-        <div class="lung">
-      </div>
-      <div class="lung">
-        <span class="blue">)</span>
-        <span class="sage">)</span>
-        <span class="green">)</span>
-        <span class="red">)</span>
-        <span class="red">)</span>
-      </div>
-  </div>
+  
+  <?php snippet('lungs', [ 'left' => false, 'right' => true, 'class' => '' ]) ?>
+
   <section>
     <?= $page->application()->toBlocks() ?>
   </section>
-  <div class="lung-container">
-        <div class="lung">
-          <span class="red">(</span>
-          <span class="blue">(</span>
-          <span class="sage">(</span>
-          <span class="red">(</span>
-          <span class="sage">(</span>
-      </div>
-      <div class="lung">
-      </div>
-  </div>
+  <?php snippet('lungs', [ 'left' => true, 'right' => false, 'class' => '' ]) ?>
+
   <section>
     <?= $page->team()->toBlocks() ?>
   </section>
-  <div class="lung-container">
-        <div class="lung">
-      </div>
-      <div class="lung">
-        <span class="blue">)</span>
-        <span class="sage">)</span>
-        <span class="green">)</span>
-        <span class="red">)</span>
-        <span class="red">)</span>
-      </div>
-  </div>
+
+  <?php snippet('lungs', [ 'left' => false, 'right' => true, 'class' => '' ]) ?>
+
   <section>
     <?= $page->space()->toBlocks() ?>
   </section>
-
+  
+  <?php snippet('lightbox') ?>
 </main>
 <?php snippet('footer') ?>
