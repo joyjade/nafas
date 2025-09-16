@@ -11,9 +11,9 @@
     </div>
     <?php if ($photo = $slots->photo()): ?>
       <?= $photo ?>
-      <?php endif ?>
-      <div class="lung">
-        <?php if( $right ) : ?>
+    <?php endif ?>
+    <div class="lung">
+      <?php if( $right ) : ?>
       <span class="blue">)</span>
       <span class="sage">)</span>
       <span class="green">)</span>

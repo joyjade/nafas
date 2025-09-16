@@ -137,7 +137,11 @@ main {
   max-width: calc( 100vw - 390px );
 }
 
-figcaption {
+/* .about main, .calendar main, .apply main, .events main, .event main, .home main { 
+} */
+
+
+figcaption, .lightbox-caption {
   font-size: 1.1rem; 
   font-family: var(--sub-font);
 }
@@ -156,7 +160,6 @@ figcaption {
 .lung-container {
   display: flex;
   justify-content: space-between;
-  height: 50vh; 
 }
 
 .lung {
@@ -164,7 +167,6 @@ figcaption {
   position: relative;
   display: inline-block;
   width: 204px;
-  max-width: 46vw;
   height: 150px;
 }
 
@@ -232,9 +234,6 @@ figcaption {
   font-size: 1.3rem;
 }
 
-.about main, .calendar main, .apply main, .events main, .event main, .home main { 
-  padding: 1rem;
-}
 
 
 .about .lung-container {
@@ -244,9 +243,7 @@ figcaption {
 
 .about section {
   padding-bottom: 3rem;
-  margin-bottom: 2rem;
   margin-top: 2rem;
-  /* border-bottom: var(--thin-border); */
 }
 
 .about h2 {
@@ -292,13 +289,6 @@ figcaption {
   width: 100%;
 }
 
-body.about main {
-  padding-top: 2rem;
-}
-
-.apply main {
-  padding-top: 2rem;
-}
 .apply p {
   font-size: 1.3rem;
 }
@@ -339,8 +329,14 @@ form input, form textarea, form select {
   font-size: 1.1rem;
 }
 
+
 form input:not([type="file"]), form select {
   height: auto;
+  border: 1px solid black;
+}
+
+form textarea {
+  border: 1px solid black;
 }
 
 form input[type="file" i] {

@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 1015px) {  
   :root {
-    --spacing: 0.5rem 0.75rem;
+    --spacing: 0.5rem 1.25rem;
   }
   .hamb {
     display: inline-block;
@@ -75,6 +75,10 @@
 
   h3 {
     font-size: 1.2em;
+  }
+
+  figcaption, .lightbox-caption {
+    font-size: 1rem; 
   }
   
   .header {
@@ -94,7 +98,12 @@
   .title {
     position: relative;
     right: unset;
+    text-align: left;
     left: 0;
+  }
+
+  .title a {
+    font-size: 1.6rem;
   }
 
   nav {
@@ -117,8 +126,71 @@
       rgb(242, 234, 221, 0) 98%
     );
   }
+
+  .lung-container {
+    /* width: 88vw; */
+    flex-flow: column;
+    height: auto;
+  }
+
+  .lung {
+    font-size: 2rem;
+    height: 100px
+  }
+
+  .lung-container.left-only .lung:last-of-type {
+    display: none;
+  }
+
+  .lung-container.right-only .lung:first-of-type {
+    display: none;
+  }
+
+  .intro {
+    margin-top: 0.5rem;
+  }
+
+  .home main {
+    padding-bottom: 3em;
+  }
+
+  .home .lung-container {
+    padding-bottom: 1rem;
+  }
+
+  .intro figure img {
+    margin: 2rem 0;
+    padding-bottom: 0.5rem;
+  }
+
+  .about section {
+    padding-bottom: 2rem;
+  }
+  
+  .about section figure {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .about section figure, .about section figure img, .about section figure ul li {
+    max-width: 43vw;
+    margin-right: 0.5rem;
+  }
+
+  .about section figure:nth-of-type(2n), .about section figure:nth-of-type(2n) img {
+    margin-right: 0;
+  }
+
   .fc .fc-multimonth-title {
     padding: 0.5rem;
+  }
+
+  .apply main {
+    padding-top: 60px;
+  }
+
+  .apply form .row > div {
+    grid-column-start: span 12 !important;
   }
 }
 
@@ -136,8 +208,31 @@
     padding-top: 5rem;
   }
 
+  main {
+    padding: 1rem;
+  }
+
+  .lung-container {
+    height: 50vh; 
+  }
+
+  .lung {
+    max-width: 46vw;
+  }
 
   body.about {
     padding-left: 2rem;
+  }
+
+  .about main {
+    padding-top: 2rem;
+  }
+
+  .about section {
+    margin-bottom: 2rem;
+  }
+  
+  .apply main {
+    padding-top: 2rem;
   }
 }
