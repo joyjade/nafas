@@ -4,6 +4,24 @@ use tobimori\DreamForm\Support\Menu;
 return [
   'debug'  => true,
 
+  	// Cache for speed ⚡
+	'cache.pages' => [
+		'active' => true
+	],
+
+  'email' => [
+      'transport' => [
+        'type' => 'smtp',
+        'host' => 'localhost',
+        'port' => 587,
+        'security' => false,
+        'auth' => false,
+        'username' => 'dreamform@andkindness.com',
+        'password' => 'dreamform'
+      ]
+    ],
+
+
  // Custom menu to show forms in the panel sidebar
   'panel.menu' => fn () => [
     'site' => Menu::site(),

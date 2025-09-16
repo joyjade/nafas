@@ -331,12 +331,12 @@ form input, form textarea, form select {
   width: 100%;
   margin-bottom: 0.5rem;
   font-family: var(--sub-font);
-  padding: 1.25rem 0.75rem ;
+  padding: 0.75rem ;
   font-size: 1.1rem;
 }
 
 form input:not([type="file"]), form select {
-  height: 35px;
+  height: auto;
 }
 
 form input[type="file" i] {
