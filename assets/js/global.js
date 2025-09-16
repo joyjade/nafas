@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() { 
   mobileNav();
+
+  setupNavHoverBackgrounds()
 });
 
 
@@ -34,4 +36,21 @@ function mobileNav() {
     // }
   });
 
+}
+
+function setupNavHoverBackgrounds() {
+  const links = document.querySelectorAll('nav a');
+
+  links.forEach(link => {
+    console.log(link);
+    const bgClass = 'hover-' + link.dataset.bg;
+
+    link.addEventListener('mouseenter', () => {
+      document.body.classList.add(bgClass);
+    });
+
+    link.addEventListener('mouseleave', () => {
+      document.body.classList.remove(bgClass);
+    });
+  });
 }

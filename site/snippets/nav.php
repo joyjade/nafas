@@ -37,7 +37,12 @@
     <ul class="m-nav">
       <?php foreach ($site->children()->listed() as $item): ?>
         <li>
-          <a <?php e($item->isActive(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+          <a 
+            <?php e($item->isActive(), 'class="active"') ?> 
+            href="<?= $item->url() ?>"
+            data-bg="<?= $item->title()->lower() ?>">
+            <?= $item->title()->html() ?>
+          </a>
         </li>
       <?php endforeach ?>
     </ul>

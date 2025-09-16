@@ -8,10 +8,12 @@
 
   --bg-color: #F2EADD;
   --primary-color: #2E482F;
-  --secondary-color: #8F9779;
-  --tertiary-color: #0eacac;
+  --secondary-color: #9ca388; 
+  --tertiary-color: #AAD9D6;
   --bang-color: #700A0A; 
+  /* --secondary-color: #8F9779; sage */
   /* --primary-color: #2E482F;
+  --tertiary-color: #0eacac; turqouise!!!!!
   --secondary-color: #B1B199;
   --tertiary-color: #196659;
   --bang-color: #8D0A0D; 
@@ -68,7 +70,7 @@ img {
 
 .title a, nav a, .events a, .back {
   text-decoration: none;
-  color: var(--tertiary-color);
+  color: var(--primary-color);
 }
 
 .title a, .title a:hover .fa {
@@ -81,7 +83,7 @@ img {
 }
 
 nav a:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 nav {
@@ -107,7 +109,64 @@ nav ul li .active {
   color: var(--primary-color);
 }
 
+/* background test */
 
+body.about { background-color: var(--secondary-color); /* sage */}
+body.calendar { background-color: var(--bg-color); /* sage */}
+body.apply {   background-color: var(--tertiary-color); /* pale blue */}
+body.events {   background-color: var(--primary-color); /* dark green */}
+body.traces {   background-color: var(--secondary-color); /* dark green */}
+
+body.hover-about {
+  background-color: var(--secondary-color); /* sage */
+}
+
+body.hover-calendar {
+  background-color: var(--bg-color); /* beige */
+}
+
+body.hover-apply {
+  background-color: var(--tertiary-color);
+}
+
+body.hover-events {
+  background-color: var(--primary-color); /* dark green */
+}
+
+body.hover-traces {
+  background-color: var(--secondary-color); /* dark green */
+}
+
+body.hover-about nav a:hover, 
+  body.hover-about .title a .fa,
+  .about .title a .fa,
+  .about section a,
+  body.hover-events nav a:hover, 
+  body.hover-events .title a,
+  body.hover-events p, 
+  body.hover-traces nav a:hover,
+  body.hover-traces .title a .fa, 
+  .events *,
+  .event *,
+  .events nav a, 
+  .event nav a, 
+  .events .title a,
+  .events .title a {
+  color: var(--bg-color);
+}
+
+body.hover-calendar .title a .fa {
+  color: var(--secondary-color);
+}
+
+.about .button {
+  border-color: var(--bg-color);
+}
+
+body.hover-events nav a, 
+.events nav a.active {
+  color: var(--secondary-color);
+}
 /* LAYOUT and TYPE*/
 
 body {
@@ -231,6 +290,7 @@ main {
 .green { color: var(--primary-color) }
 .sage { color: var(--secondary-color) }
 .blue { color: var(--tertiary-color) }
+.beige { color: var(--bg-color) }
 
 
 .home .intro figure {
