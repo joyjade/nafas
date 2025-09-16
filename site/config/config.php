@@ -6,8 +6,8 @@ return [
     'install' => true
   ], 
   
-  'debug'  => false,
-  
+  'debug'  => true,
+
   	// Cache for speed ⚡
 	'cache.pages' => [
 		'active' => true
