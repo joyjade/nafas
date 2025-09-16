@@ -185,7 +185,7 @@
     padding: 0.5rem;
   }
 
-  .apply main {
+  .apply main, .events main, .event main, .calendar main {
     padding-top: 60px;
   }
 
