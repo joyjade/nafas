@@ -198,14 +198,39 @@
     margin-bottom: 1rem;
   }
 
-  .events .event a {
+  .events .event a, .event .heading {
     flex-flow: column;
   }
 
-  .event date {
-    padding-bottom: 0.65rem;
+  .events date {
     font-size: 1.2rem;
   }
+  
+  .event date {
+    padding-bottom: 0.65rem;
+  }
+
+  .event section p {
+    margin-bottom: 0.5rem;
+}
+
+  .event .heading p {
+    font-size: 1.8rem;
+  }
+  
+  .event section img {
+    width: 100%;
+  }
+
+  .event section figure {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .event main {
+    margin-bottom: 3rem;
+  }
+
 }
 
 /* tablet to desktop and up */
