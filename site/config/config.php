@@ -2,8 +2,12 @@
 use tobimori\DreamForm\Support\Menu;
 
 return [
-  'debug'  => true,
-
+  'panel' => [
+    'install' => true
+  ], 
+  
+  'debug'  => false,
+  
   	// Cache for speed ⚡
 	'cache.pages' => [
 		'active' => true
