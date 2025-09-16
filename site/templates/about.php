@@ -8,6 +8,10 @@
           <span class="red">(</span>
           <span class="sage">(</span>
       </div>
+      <figure>
+        <!-- <?php dump($page->lead()->toFile()) ?> -->
+          <img src="<?= $page->lead()->url() ?>" alt="">
+        </figure>
       <div class="lung">
       </div>
   </div>

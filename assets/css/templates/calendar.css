@@ -1,0 +1,113 @@
+
+/* CALENDAR TIES */
+
+#calendar {
+  max-width: 890px;
+  /* max-height: calc( 100vh - 100px); */
+  font-family: var(--sub-font);
+  padding-top: 1rem;
+}
+
+.legend ul {
+  padding-top: 10px;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.legend li {
+  padding-right: 15px;
+}
+
+.legend .dot {
+  --dot-size: 10px;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.fc .fc-multimonth-title {
+  font-family: var(--main-font);
+}
+
+#calendar h2 {
+  font-size: 1.25rem;;
+}
+
+#calendar a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 0.5rem;
+}
+.fc .fc-multimonth-title {
+  font-size: 1.15rem;
+  padding: 0.75rem;
+}
+
+.fc .fc-button {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.fc table {
+  font-size: 0.85rem;
+}
+
+.fc .fc-multimonth-compact .fc-multimonth-daygrid-table, .fc .fc-multimonth-compact .fc-multimonth-header-table {
+  font-size: 0.75em;
+}
+
+.fc th {
+  font-weight: 400;
+}
+/* 
+.fc .fc-button-primary:disabled {
+  background-color: gray;
+  border-color: gray; 
+} */
+
+.fc .fc-multimonth {
+  /* overflow: unset; */
+  /* border-left: none;
+  border-right: none; */
+}
+
+:root {
+   --fc-small-font-size: .85em; /* event text */
+  --fc-page-bg-color: var(--bg-color);
+  --fc-neutral-bg-color: rgba(89, 89, 89, 0.215);
+  --fc-neutral-text-color: #565656;
+  --fc-border-color: black;
+
+  --fc-button-text-color: var(--primary-color);
+  --fc-button-bg-color: transparent;
+  --fc-button-border-color: var(--primary-color);
+  --fc-button-hover-bg-color: var(--secondary-color);
+  --fc-button-hover-border-color: var(--secondary-color);
+  --fc-button-active-bg-color: #1a252f;
+  --fc-button-active-border-color: #151e27;
+
+  --fc-event-bg-color: #4F4E3C;
+  --fc-event-border-color: #4F4E3C;
+  --fc-event-text-color: #fff;
+  --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+
+  --fc-more-link-bg-color: #d0d0d0;
+  --fc-more-link-text-color: inherit;
+
+  --fc-event-resizer-thickness: 8px;
+  --fc-event-resizer-dot-total-width: 8px;
+  --fc-event-resizer-dot-border-width: 1px;
+
+  --fc-non-business-color: rgba(215, 215, 215, 0.3);
+  --fc-bg-event-color: rgb(143, 223, 130);
+  --fc-bg-event-opacity: 0.3;
+  --fc-highlight-color: rgba(188, 232, 241, 0.3);
+  --fc-today-bg-color: var(--secondary-color);
+  --fc-now-indicator-color: red;
+}

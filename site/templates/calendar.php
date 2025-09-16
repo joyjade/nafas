@@ -51,12 +51,12 @@
               failure: function () {
                 alert('There was an error while fetching Kirby events!');
               },
-              color: '#00B9B0',   // optional color for Kirby events
+              color: '#2E482F',   // optional color for Kirby events
             },
             {
               googleCalendarId: calid,
               className: 'gcal-event',
-              color: '#2E482F' // optional
+              color: '#16b3b3' // optional
             }
           ]
         });
@@ -76,11 +76,11 @@
   <div class="legend">
     <ul>
       <li>
-        <span class="dot" style="background-color: #2E482F"></span>
+        <span class="dot" style="background-color: var(--tertiary-color)"></span>
         Residency in Progress
       </li>
       <li>
-        <span class="dot" style="background-color: #00B9B0"></span>
+        <span class="dot" style="background-color: var(--primary-color)"></span>
         Event
       </li>
     </ul>

@@ -9,18 +9,10 @@ sections:
   fields:
     type: fields
     fields:
-      intro: 
-        type: blocks
-        fieldsets:
-          - heading
-          - text
-          - list
-          - image
-          - gallery
-          - line
-          - persian
-          - quote
-          - button
+      lead:
+        label: Top photo
+        type: files
+        multiple: false
       residency:
         label: About the Residency
         type: blocks
