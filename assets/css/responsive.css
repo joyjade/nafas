@@ -205,15 +205,20 @@
   }
 
   form {
-    padding-top: 5rem;
+
   }
 
   main {
-    padding: 1rem;
+    /* padding: 1rem; */
   }
 
+  .about main {
+    /* padding-top: 2rem; */
+  }
+
+
   .lung-container {
-    height: 50vh; 
+    height: 56vh; 
   }
 
   .lung {
@@ -224,7 +229,7 @@
     padding-left: 2rem;
   }
 
-  .about main {
+  .about .intro figure img {
     padding-top: 2rem;
   }
 
@@ -233,6 +238,6 @@
   }
   
   .apply main {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 }

@@ -66,7 +66,7 @@ img {
   text-align: right;
 }
 
-.title a, nav a, .events a, .back {
+.title a, nav a, .events a {
   text-decoration: none;
   color: var(--tertiary-color);
 }
@@ -108,6 +108,25 @@ nav ul li .active {
   color: var(--primary-color);
 }
 
+a.back {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.back .arrow {
+  margin-right: 10px;
+}
+
+.back .arrow svg {
+  width: 20px;
+  height: 25px;
+}
 
 /* LAYOUT and TYPE*/
 
@@ -298,8 +317,8 @@ figcaption, .lightbox-caption {
 form {
   font-family: var(--sub-font);
   font-size: 1.1rem;
-  padding-top: 2rem;
   max-width: 1000px;
+  margin-top: 2.5rem;
   margin-bottom: 2rem;
 }
 
