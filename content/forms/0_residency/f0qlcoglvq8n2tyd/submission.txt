@@ -1,0 +1,130 @@
+Name: Bo Hwang
+
+----
+
+Email: bo.j.hwang@gmail.com
+
+----
+
+Type: writing
+
+----
+
+Timeline: Forever
+
+----
+
+Proposal: This is the project
+
+----
+
+Bio: This is me
+
+----
+
+Materials: 
+
+----
+
+Approval: 
+
+----
+
+Dreamform-submitted: 2025-09-16T16:49:29+00:00
+
+----
+
+Dreamform-referer: apply
+
+----
+
+Dreamform-log:
+
+- 
+  data:
+    template:
+      to: info@nafasresidency.org
+    from: info@nafasresidency.org
+    subject: 'Nafas Resideny Application '
+    body: |
+      You have received a new form submission for your form "Residency Application".
+      ———
+      
+      Name:
+      Bo Hwang
+      
+      ———
+      
+      Email:
+      bo.j.hwang@gmail.com
+      
+      ———
+      
+      Type of Residency:
+      writing
+      
+      ———
+      
+      Timeline: Please consult the calendar to see what timelines are open. Indicate two timelines of your preference below. The duration of the residencies can be between one week to three weeks.  :
+      Forever
+      
+      ———
+      
+      Proposal: Please provide a short (maximum one page) statement of purpose or proposal for what you want to work on throughout your time at Nafas and why you have chosen Nafas. :
+      This is the project
+      
+      ———
+      
+      Bio: A biography of yourself with any relevant information you want us to know about you—your background, education, practice, vision, etc.  :
+      This is me
+  id: e0064b9e-61f4-4238-84e4-25ec7a7655bf
+  type: email
+  icon: email
+  title: dreamform.actions.email.log.success
+  timestamp: 1758043904
+- 
+  data:
+    text: 'SMTP Error: Could not connect to SMTP host. Failed to connect to server'
+    template:
+      type: email
+  id: 146db1c8-ccec-4807-b16c-9ce769e726f6
+  type: error
+  icon: email
+  title: dreamform.actions.email.name
+  timestamp: 1758041429
+- 
+  data:
+    text: 'SMTP Error: Could not connect to SMTP host. Failed to connect to server'
+    template:
+      type: email
+  id: c4629df6-0dc9-45e5-8454-598feb2435ac
+  type: error
+  icon: email
+  title: dreamform.actions.email.name
+  timestamp: 1758041369
+
+----
+
+Dreamform-sender: 
+
+----
+
+Dreamform-state:
+
+success: true
+partial: false
+spam: false
+step: 1
+redirect: null
+error: null
+errors: [ ]
+actions: [ ]
+actionsdidrun: true
+
+----
+
+Uuid: f0qlcoglvq8n2tyd
+
+----
+
+Dreamform-gravatar: 0
