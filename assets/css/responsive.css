@@ -10,11 +10,11 @@
 }
 
 .hamb {
-  --ham-width: 22px;
+  --ham-width: 25px;
   cursor: pointer;
   position: relative;
   width: var(--ham-width);
-  height: 22px;
+  height: 25px;
   /* margin: 5px; */
 }
 
@@ -28,11 +28,11 @@
 }
 
 .hamb-line:before {
-  top: 8px;
+  top: 9px;
 }
 
 .hamb-line:after {
-  top: 16px;
+  top: 18px;
 }
 
 .hamb-line, .hamb-line:after, .hamb-line:before {
@@ -55,7 +55,7 @@
 }
 
 .hamb.show .hamb-line:after {
-  transform: translate3d(0, -16px, 0) rotate(-90deg);
+  transform: translate3d(0, -18px, 0) rotate(-90deg);
 }
 
 
@@ -109,8 +109,9 @@
   }
 
   nav {
-    top: 32px;
+    top: 35px;
     z-index: 100;
+    padding-left: 1rem;
   }
 
   main {
