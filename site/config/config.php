@@ -15,13 +15,13 @@ return [
 
   'email' => [
       'transport' => [
-        'type' => 'smtp',
-        'host' => 'localhost',
-        'port' => 587,
-        'security' => false,
-        'auth' => false,
-        'username' => 'dreamform@andkindness.com',
-        'password' => 'dreamform'
+        'type'     => 'smtp',
+        'host'     => 'smtp.gmail.com',
+        'port'     => 587,
+        'security' => 'starttls',
+        'auth'     => true,
+        'username' => 'info@nafasresidency.org',         
+        'password' => env('SMTP_APP_PASS')
       ]
     ],
 
