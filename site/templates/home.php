@@ -5,7 +5,7 @@
     <?php snippet('lungs', [ 'left' => true, 'right' => true, 'class' => ''], slots: true) ?>
       <?php slot('photo') ?>
         <figure>
-          <img src="<?= $page->photo()->toFile()->url() ?>" alt="">
+          <img src="<?= $page->lead()->toFile()->url() ?>" alt="">
         </figure>
       <?php endslot() ?>
     <?php endsnippet() ?>

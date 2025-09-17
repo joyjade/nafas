@@ -15,7 +15,7 @@ sections:
   fields:
     type: fields
     fields:
-      photo:
+      lead:
         type: files
         label: Banner Photo
         multiple: false
