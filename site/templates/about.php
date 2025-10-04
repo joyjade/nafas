@@ -36,6 +36,6 @@
 </main>
 <?php snippet('footer', slots: true) ?>
   <?php slot('credit') ?>
-  <p class="credit">Website by <a href="https://joy-jade.com/">Joy Park</a> | Made with <a href="https://getkirby.com/">Kirby</a></p>
+  <p class="credit">Website by <a href="https://joy-jade.com/">JJ</a> | Made with <a href="https://getkirby.com/">Kirby</a></p>
   <?php endslot() ?>  
 <?php endsnippet() ?>
