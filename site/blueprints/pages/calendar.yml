@@ -17,5 +17,3 @@ sections:
     fields:
       description: 
         type: textarea
-      color: 
-        type: text
