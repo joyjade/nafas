@@ -57,6 +57,20 @@ img {
   width: auto;
 }
 
+.credit {
+  font-family: var(--sub-font);
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+.credit a {
+  color: var(--secondary-color);
+}
+
+.credit a:hover {
+  color: var(--primary-color);
+}
+
 /* MENU */
 
 .title, nav {
