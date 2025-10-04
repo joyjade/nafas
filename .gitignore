@@ -54,6 +54,7 @@ Icon
 
 /site/config/.license
 /site/config/config.nafas.test.php
+/site/config/.dreamform_license
 
 
 # Composer files
